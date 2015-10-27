@@ -43,7 +43,7 @@ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF S
 DAMAGE.
 " />
 <link id="faviconLink" rel="shortcut icon" href="favicon.ico">
-<title>三国杀游戏规则体系 — v5.0.1 Designed by 天气真好</title>
+<title>三国杀游戏规则体系 — v5.1 Designed by 天气真好</title>
 <!--~~ This is a Tiddlywiki file. The points of interest in the file are marked with this pattern ~~--><!--~~ Raw markup ~~-->
 
 </head>
@@ -271,6 +271,8 @@ Error message and password prompt
 
 <li>$:/SiteTitle</li>
 
+<li>$:/state/showeditpreview</li>
+
 <li>$:/state/sidebar</li>
 
 <li>$:/state/tab--1498284803</li>
@@ -278,6 +280,8 @@ Error message and password prompt
 <li>$:/state/tab--1963855381</li>
 
 <li>$:/state/tab--467614767</li>
+
+<li>$:/state/tab-1504712437</li>
 
 <li>$:/state/tab-1749438307</li>
 
@@ -1329,12 +1333,12 @@ Error message and password prompt
 &gt;&gt;若你使用【闪】，对方指【杀】的使用者；
 &gt;&gt;若你因执行其他角色使用的技能或牌的效果而打出【杀】或【闪】，对方指该角色。</pre>
 </div>
-<div created="20141024080729157" creator="gltjk" modified="20150927121415714" modifier="gltjk" tags="$:/tags/PageControls" title="$:/_MyRibbon">
+<div created="20141024080729157" creator="gltjk" modified="20151027150112370" modifier="gltjk" tags="$:/tags/PageControls" title="$:/_MyRibbon">
 <pre>&lt;div class=&quot;github-fork-ribbon-wrapper right&quot;&gt;
 &lt;div class=&quot;github-fork-ribbon&quot; style=&quot;background-color:green;&quot;&gt;
 &lt;$list filter=&quot;[[更新历史]]&quot;&gt;
 &lt;$link&gt;
-&lt;&lt;five&gt;&gt;Nova  v5.0.1
+&lt;&lt;five&gt;&gt;Nova  v5.1
 &lt;/$link&gt;
 &lt;/$list&gt;
 &lt;/div&gt;
@@ -1349,7 +1353,7 @@ Error message and password prompt
 <div modified="20150526071912187" modifier="gltjk" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all">
 <pre>show</pre>
 </div>
-<div modified="20150927155155004" modifier="gltjk" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
+<div modified="20151027155735021" modifier="gltjk" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
 <pre>hide</pre>
 </div>
 <div modified="20150526071931166" modifier="gltjk" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/export-page">
@@ -1364,7 +1368,7 @@ Error message and password prompt
 <div modified="20140908080620606" modifier="gltjk" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/language">
 <pre>hide</pre>
 </div>
-<div modified="20150927155130032" modifier="gltjk" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
+<div modified="20151027155733628" modifier="gltjk" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
 <pre>hide</pre>
 </div>
 <div modified="20141112155720075" modifier="gltjk" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/permaview">
@@ -1373,7 +1377,7 @@ Error message and password prompt
 <div modified="20141112155741701" modifier="gltjk" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/refresh">
 <pre>hide</pre>
 </div>
-<div modified="20150927155204834" modifier="gltjk" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/save-wiki">
+<div modified="20151027155738467" modifier="gltjk" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/save-wiki">
 <pre>hide</pre>
 </div>
 <div modified="20150526071937586" modifier="gltjk" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager">
@@ -1388,13 +1392,13 @@ Error message and password prompt
 <div modified="20141112155822997" modifier="gltjk" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/close-others">
 <pre>hide</pre>
 </div>
-<div modified="20150927155145851" modifier="gltjk" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit">
+<div modified="20151027155801555" modifier="gltjk" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit">
 <pre>hide</pre>
 </div>
-<div modified="20150927155143595" modifier="gltjk" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/info">
+<div modified="20151027155759060" modifier="gltjk" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/info">
 <pre>hide</pre>
 </div>
-<div modified="20150927155144147" modifier="gltjk" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions">
+<div modified="20151027155759915" modifier="gltjk" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions">
 <pre>hide</pre>
 </div>
 <div modified="20150526071954395" modifier="gltjk" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/new-here">
@@ -7154,7 +7158,7 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 
 &lt;/$scrollable&gt;</pre>
 </div>
-<div caption="{{$:/language/SideBar/More/Caption}}" modified="20150927155335473" modifier="gltjk" tags="$:/tags/hide" title="$:/core/ui/SideBar/More">
+<div caption="{{$:/language/SideBar/More/Caption}}" modified="20151027155814505" modifier="gltjk" tags="$:/tags/hide" title="$:/core/ui/SideBar/More">
 <pre>&lt;div class=&quot;tc-more-sidebar&quot;&gt;
 &lt;&lt;tabs &quot;[all[shadows+tiddlers]tag[$:/tags/MoreSideBar]!has[draft.of]]&quot; &quot;$:/core/ui/MoreSideBar/Tags&quot; &quot;$:/state/tab/moresidebar&quot; &quot;tc-vertical&quot;&gt;&gt;
 &lt;/div&gt;
@@ -7171,7 +7175,7 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 &lt;$button message=&quot;tm-close-all-tiddlers&quot; class=&quot;tc-btn-invisible tc-btn-mini&quot;&gt;&lt;&lt;lingo Button&gt;&gt;&lt;/$button&gt;
 </pre>
 </div>
-<div caption="{{$:/language/SideBar/Tools/Caption}}" modified="20150927155336608" modifier="gltjk" tags="$:/tags/hide" title="$:/core/ui/SideBar/Tools">
+<div caption="{{$:/language/SideBar/Tools/Caption}}" modified="20151027155816322" modifier="gltjk" tags="$:/tags/hide" title="$:/core/ui/SideBar/Tools">
 <pre>\define lingo-base() $:/language/ControlPanel/
 \define config-title()
 $:/config/PageControlButtons/Visibility/$(listItem)$
@@ -10633,7 +10637,7 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 <div author="EucalyJ" created="20140815090725509" creator="EucalyJ" description="FlexWidth - Flexibly tweak sidebar width for TiddlyWiki 5" lastupdate="20141004" list="readme history" modified="20141004030205660" modifier="EucalyJ" plugin-type="plugin" source="http://eucaly-tw5.tiddlyspot.com/" tags="$:/_flexwidth $:/_plugin-package" title="$:/plugins/eucaly/flexwidth" type="application/json" version="0.0.4">
 <pre>{&quot;tiddlers&quot;:{&quot;$:/plugins/eucaly/flexwidth/config&quot;:{&quot;created&quot;:&quot;20140905143837494&quot;,&quot;creator&quot;:&quot;EucalyJ&quot;,&quot;flex-width&quot;:&quot;+&quot;,&quot;modified&quot;:&quot;20141004030331552&quot;,&quot;modifier&quot;:&quot;EucalyJ&quot;,&quot;sidebar-width&quot;:&quot;30em&quot;,&quot;tags&quot;:&quot;$:/_flexwidth $:/_macros&quot;,&quot;title&quot;:&quot;$:/plugins/eucaly/flexwidth/config&quot;,&quot;type&quot;:&quot;text/vnd.tiddlywiki&quot;,&quot;text&quot;:&quot;&quot;},&quot;$:/plugins/eucaly/flexwidth/history&quot;:{&quot;caption&quot;:&quot;History&quot;,&quot;created&quot;:&quot;20140902083720188&quot;,&quot;creator&quot;:&quot;EucalyJ&quot;,&quot;lastupdate&quot;:&quot;20141004&quot;,&quot;modified&quot;:&quot;20141004030143956&quot;,&quot;modifier&quot;:&quot;EucalyJ&quot;,&quot;tags&quot;:&quot;$:/_flexwidth $:/_readme&quot;,&quot;title&quot;:&quot;$:/plugins/eucaly/flexwidth/history&quot;,&quot;type&quot;:&quot;text/vnd.tiddlywiki&quot;,&quot;text&quot;:&quot;!!!History\n* 20141004 / ''0.0.4''\n** add CSS rule for sidebarbreakpoint\n* 20140913 / ''0.0.3'' ( 4.9K / 2.5K ) -- for 5.0.17-beta ~\n** stylesheet tagged with {{$:/tags/Stylesheet||$:/core/ui/TagTemplate}}\n** Change ButtonWidget `title` attribute to `tooltip`\n* 20140909 / ''0.0.2'' ( 4.7K / 2.4K )\n** More width option: 15em\n** Update button icon with Unicode char -- http://unicode-search.net/\n* 20140906 / ''0.0.1'' ( 4.4K / 2.4K )\n* 20140905 -- working draft, the previous adoption was posted at [[TiddlyWiki Forum|https://groups.google.com/d/msg/tiddlywiki/yJPSGQflIqM/Y_8jGARq4gQJ]]\n&quot;},&quot;$:/plugins/eucaly/flexwidth/readme&quot;:{&quot;caption&quot;:&quot;~FlexWidth&quot;,&quot;created&quot;:&quot;20140910024048905&quot;,&quot;creator&quot;:&quot;EucalyJ&quot;,&quot;lastupdate&quot;:&quot;20140909&quot;,&quot;modified&quot;:&quot;20140910024711568&quot;,&quot;modifier&quot;:&quot;EucalyJ&quot;,&quot;tags&quot;:&quot;$:/_readme $:/_flexwidth&quot;,&quot;title&quot;:&quot;$:/plugins/eucaly/flexwidth/readme&quot;,&quot;type&quot;:&quot;text/vnd.tiddlywiki&quot;,&quot;text&quot;:&quot;!![[FlexWidth Plugin|$:/plugins/eucaly/flexwidth/readme]]\n&lt;hr&gt;\n\nThis ''FlexWidth'' plugin provides a handy machenism to ''flexibly tweak sidebar width'' for [[TiddlyWiki 5|http://tiddlywiki.com/]]. \n\n!!!Features\n\n# Add extra buttons next to system ~TopRightBar Icon, such as - `▼` `◀` {{$:/core/ui/TopBar/menu}}\n# `◀` / `▶` to toggle between default and custom sidebar width.\n# `▼` to select different sidebar width.\n&lt;p&gt;** Inspired by [[TW5 tristate Sidebar|http://tw5tristate.tiddlyspot.com/]] &lt;/p&gt;\n\n!!!Install\n* Drag&amp;Drop package -- [[$:/plugins/eucaly/flexwidth]] (with documentation)&quot;},&quot;$:/plugins/eucaly/flexwidth/stylesheet&quot;:{&quot;created&quot;:&quot;20140904154049029&quot;,&quot;creator&quot;:&quot;EucalyJ&quot;,&quot;list-after&quot;:&quot;$:/themes/tiddlywiki/vanilla/base&quot;,&quot;modified&quot;:&quot;20141004024850657&quot;,&quot;modifier&quot;:&quot;EucalyJ&quot;,&quot;sidebar-width&quot;:&quot;30em&quot;,&quot;tags&quot;:&quot;$:/tags/Stylesheet $:/_flexwidth $:/_macros&quot;,&quot;title&quot;:&quot;$:/plugins/eucaly/flexwidth/stylesheet&quot;,&quot;type&quot;:&quot;text/vnd.tiddlywiki&quot;,&quot;text&quot;:&quot;\\define if-fluid(text)\n&lt;$reveal state=\&quot;$:/state/sidebar\&quot; type=\&quot;nomatch\&quot; text=\&quot;no\&quot;&gt;\n&lt;$reveal state=\&quot;$:/plugins/eucaly/flexwidth/config!!sidebar-width\&quot; type=\&quot;nomatch\&quot; text=\&quot;default\&quot; default=\&quot;default\&quot;&gt;\n&lt;$reveal state=\&quot;$:/plugins/eucaly/flexwidth/config!!flex-width\&quot; type=\&quot;match\&quot; text=\&quot;+\&quot;&gt;$text$&lt;/$reveal&gt;\n&lt;/$reveal&gt;\n\\end\n\n&lt;&lt;if-fluid \&quot;\n@media (min-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {\n.tc-story-river {\n     width: calc(100% - {{$:/plugins/eucaly/flexwidth/config!!sidebar-width}});\n}\n\n.tc-tiddler-frame {\n     width: 100%;\n}\n\n.tc-sidebar-scrollable {\n     float: right;\n     width: {{$:/plugins/eucaly/flexwidth/config!!sidebar-width}};\n     left: auto;\n     padding: 71px 0 0 0;\n}\n}\n\&quot;&gt;&gt;&quot;},&quot;$:/plugins/eucaly/flexwidth/TopBarMenu&quot;:{&quot;created&quot;:&quot;20140904152757311&quot;,&quot;creator&quot;:&quot;EucalyJ&quot;,&quot;list-before&quot;:&quot;$:/core/ui/TopBar/menu&quot;,&quot;modified&quot;:&quot;20140913000355649&quot;,&quot;modifier&quot;:&quot;EucalyJ&quot;,&quot;tags&quot;:&quot;$:/tags/TopRightBar $:/_UI $:/_flexwidth $:/_macros&quot;,&quot;title&quot;:&quot;$:/plugins/eucaly/flexwidth/TopBarMenu&quot;,&quot;type&quot;:&quot;text/vnd.tiddlywiki&quot;,&quot;text&quot;:&quot;&lt;$reveal state=\&quot;$:/state/sidebar\&quot; type=\&quot;nomatch\&quot; text=\&quot;no\&quot;&gt;\n&lt;$reveal state=\&quot;$:/plugins/eucaly/flexwidth/config!!flex-width\&quot; type=\&quot;match\&quot; text=\&quot;-\&quot;&gt;\n&lt;$button set=\&quot;$:/plugins/eucaly/flexwidth/config!!flex-width\&quot; setTo=\&quot;+\&quot; tooltip=\&quot;Custom width\&quot; class=\&quot;tc-btn-invisible\&quot;&gt;▶&lt;/$button&gt;&lt;!--[+]--&gt;\n\n&lt;/$reveal&gt;\n&lt;$reveal state=\&quot;$:/plugins/eucaly/flexwidth/config!!flex-width\&quot; type=\&quot;match\&quot; text=\&quot;+\&quot; default=\&quot;+\&quot;&gt;\n&lt;$button popup=\&quot;$:/flexwidth-PopupState\&quot; tooltip=\&quot;Select width\&quot; class=\&quot;tc-btn-invisible\&quot;&gt;▼&lt;/$button&gt;&lt;!--[v]--&gt;\n&lt;$reveal type=\&quot;popup\&quot; state=\&quot;$:/flexwidth-PopupState\&quot; position=\&quot;below\&quot;&gt;\n&lt;!--div class=\&quot;tc-drop-down\&quot;--&gt;\n&lt;div class=\&quot;tc-popup tc-tiddler-info\&quot;&gt;\n\n!!!Sidebar width &lt;br/&gt;\n&lt;$list filter=\&quot;15em 20em 25em 30em 35em 40em default\&quot; variable=\&quot;sel-w\&quot;&gt;\n &lt;$radio tiddler=\&quot;$:/plugins/eucaly/flexwidth/config\&quot; field=\&quot;sidebar-width\&quot; value=&lt;&lt;sel-w&gt;&gt;&gt; &lt;&lt;sel-w&gt;&gt;&lt;/$radio&gt;&lt;br/&gt;\n&lt;/$list&gt;\n&lt;br/&gt;&lt;$link to=\&quot;$:/plugins/eucaly/flexwidth/readme\&quot; tooltip=\&quot;ReadMe\&quot;&gt;[?] ~FlexWidth&lt;/$link&gt;&lt;!--[?]--&gt;\n&lt;/div&gt;\n&lt;/$reveal&gt;\n&lt;$button set=\&quot;$:/plugins/eucaly/flexwidth/config!!flex-width\&quot; setTo=\&quot;-\&quot; tooltip=\&quot;Default width\&quot; class=\&quot;tc-btn-invisible\&quot;&gt;◀&lt;/$button&gt;&lt;!--[--]--&gt;\n&lt;/$reveal&gt;\n&lt;/$reveal&gt;\n&quot;}}}</pre>
 </div>
-<div created="20140905143837494" creator="EucalyJ" flex-width="-" modified="20150910153246090" modifier="gltjk" sidebar-width="30em" tags="$:/_flexwidth $:/_macros" title="$:/plugins/eucaly/flexwidth/config" type="text/vnd.tiddlywiki">
+<div created="20140905143837494" creator="EucalyJ" flex-width="-" modified="20151027145648987" modifier="gltjk" sidebar-width="30em" tags="$:/_flexwidth $:/_macros" title="$:/plugins/eucaly/flexwidth/config" type="text/vnd.tiddlywiki">
 <pre></pre>
 </div>
 <div created="20140904152757311" creator="EucalyJ" list-before="$:/core/ui/TopBar/menu" modified="20141112072917585" modifier="gltjk" tags="$:/tags/TopRightBar $:/_UI $:/_flexwidth $:/_macros" title="$:/plugins/eucaly/flexwidth/TopBarMenu" type="text/vnd.tiddlywiki">
@@ -11418,34 +11422,40 @@ button.button:hover {
 
 /* Damn, this became a fat baby..  */</pre>
 </div>
-<div created="20140908080508465" creator="gltjk" modified="20150927121342592" modifier="gltjk" title="$:/SiteSubtitle">
-<pre>v5.0.1 Designed by 天气真好</pre>
+<div created="20140908080508465" creator="gltjk" modified="20151027150055010" modifier="gltjk" title="$:/SiteSubtitle">
+<pre>v5.1 Designed by 天气真好</pre>
 </div>
 <div created="20140908080501617" creator="gltjk" modified="20141112092656690" modifier="gltjk" title="$:/SiteTitle">
 <pre>三国杀游戏规则体系&lt;&lt;five 32&gt;&gt;</pre>
 </div>
-<div modified="20150910153244729" modifier="gltjk" title="$:/state/sidebar">
+<div modified="20151027071614069" modifier="gltjk" title="$:/state/showeditpreview">
 <pre>yes</pre>
 </div>
-<div modified="20150927155256215" modifier="gltjk" title="$:/state/tab--1498284803">
+<div modified="20151027071855846" modifier="gltjk" title="$:/state/sidebar">
+<pre>yes</pre>
+</div>
+<div modified="20151027155827169" modifier="gltjk" title="$:/state/tab--1498284803">
 <pre>$:/core/ui/AdvancedSearch/Standard</pre>
 </div>
 <div modified="20150910153118666" modifier="gltjk" title="$:/state/tab--1963855381">
 <pre>$:/core/ui/ControlPanel/Toolbars</pre>
 </div>
-<div modified="20150927115823401" modifier="gltjk" title="$:/state/tab--467614767">
+<div modified="20151027014845767" modifier="gltjk" title="$:/state/tab--467614767">
 <pre>RE马谡</pre>
 </div>
-<div modified="20150927155133598" modifier="gltjk" title="$:/state/tab-1749438307">
+<div modified="20151027145323377" modifier="gltjk" title="$:/state/tab-1504712437">
+<pre>曹睿</pre>
+</div>
+<div modified="20151027155725833" modifier="gltjk" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Appearance</pre>
 </div>
 <div modified="20150927130618056" modifier="gltjk" title="$:/state/tab/moresidebar-401116514">
 <pre>$:/core/ui/MoreSideBar/System</pre>
 </div>
-<div modified="20150927155234752" modifier="gltjk" title="$:/state/tab/sidebar--1835078512">
-<pre>$:/core/ui/SideBar/Open</pre>
+<div modified="20151027155658745" modifier="gltjk" title="$:/state/tab/sidebar--1835078512">
+<pre>目录</pre>
 </div>
-<div modified="20150927155142480" modifier="gltjk" title="$:/state/tabs/controlpanel/toolbars-1345989671">
+<div modified="20151027155756482" modifier="gltjk" title="$:/state/tabs/controlpanel/toolbars-1345989671">
 <pre>$:/core/ui/ControlPanel/Toolbars/ViewToolbar</pre>
 </div>
 <div modified="20150927155231402" modifier="gltjk" title="$:/state/toc/目录-规则--630054971">
@@ -11454,10 +11464,10 @@ button.button:hover {
 <div created="20140908080534770" creator="g" modified="20140908080535378" modifier="gltj" title="$:/status/UserName">
 <pre>gltjk</pre>
 </div>
-<div list="$:/plugins/tongerner/ro/publish 欢迎" title="$:/StoryList">
+<div list="欢迎" title="$:/StoryList">
 <pre></pre>
 </div>
-<div created="20150910153057915" creator="gltjk" modified="20150927155255437" modifier="gltjk" title="$:/temp/advancedsearch">
+<div created="20150910153057915" creator="gltjk" modified="20151027155830051" modifier="gltjk" title="$:/temp/advancedsearch">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -11477,7 +11487,7 @@ button.button:hover {
 <div created="20150927115150137" creator="gltjk" modified="20150927115200297" modifier="gltjk" title="$:/temp/NewTagName">
 <pre></pre>
 </div>
-<div created="20150927114857892" creator="gltjk" modified="20150927155047657" modifier="gltjk" title="$:/temp/search">
+<div created="20150927114857892" creator="gltjk" modified="20151027155635450" modifier="gltjk" title="$:/temp/search">
 <pre></pre>
 </div>
 <div modified="20141112154051962" modifier="gltjk" title="$:/theme">
@@ -11878,7 +11888,7 @@ button.button:hover {
 <div created="20141027131030751" creator="gltjk" modified="20141027131044757" modifier="gltjk" title="标志牌">
 <pre>&lt;&lt;tabs &quot;五虎将大旗 黄巾天兵符&quot; &quot;五虎将大旗&quot;&gt;&gt;</pre>
 </div>
-<div created="20141014171326611" creator="gltjk" modified="20150630021220253" modifier="gltjk" tags="专题" title="标准版">
+<div created="20141014171326611" creator="gltjk" modified="20151027141608241" modifier="gltjk" tags="专题" title="标准版">
 <pre>!!为什么不为''标准版''设立单独的武将/游戏牌页面？
 # ''界限突破标准版''与''标准版''均属于标准模式，且前者使用了与后者一样的武将编号。
 # ''标准版''武将的技能在其他模式（国战、3v3、1v1）里的相应武将上均有体现，没必要专门说明。
@@ -11891,7 +11901,7 @@ button.button:hover {
 *标准版里，[[吕布]]的体力值为4。
 *标准版里，武将不包括[[李典]]、[[徐庶]]、[[公孙瓒]]，游戏牌不包括【[[木牛流马]]】。
 * 技能调整（具体原技能描述见下表）
-** 修改技能：[[奸雄|曹操]]、[[反馈|司马懿]]、[[鬼才|司马懿]]、[[刚烈|夏侯惇]]、[[突袭|张辽]]、[[裸衣|许褚]]、[[遗计|郭嘉]]、[[铁骑|马超]]、[[苦肉|黄盖]]、[[英姿|周瑜]]、[[反间|周瑜]]、[[国色|大乔]]、[[连营|陆逊]]
+** 修改技能：[[奸雄|曹操]]、[[反馈|司马懿]]、[[鬼才|司马懿]]、[[刚烈|夏侯惇]]、[[突袭|张辽]]、[[裸衣|许褚]]、[[遗计|郭嘉]]、[[仁德|刘备]]、[[铁骑|马超]]、[[苦肉|黄盖]]、[[英姿|周瑜]]、[[反间|周瑜]]、[[国色|大乔]]、[[连营|陆逊]]
 **增加技能：[[清俭|夏侯惇]]、[[义绝|关羽]]、[[替身|张飞]]、[[涯角|赵云]]、[[奋威|甘宁]]、[[勤学|吕蒙]]、[[诈降|黄盖]]、[[除疠|华佗]]、[[利驭|吕布]]
 **删除技能：[[青囊|华佗]]
 ---
@@ -11908,7 +11918,7 @@ button.button:hover {
 |~|~| 遗计 |当你受到1点伤害后，你可以观看牌堆顶的两张牌，然后将其中的一张牌交给一名角色，再将另一张牌交给一名角色。|
 |~| [[甄姬]] | 倾国 |（没有变化）|
 |~|~| 洛神 |（没有变化）|
-| 蜀 | [[刘备]] | 仁德 |（没有变化）|
+| 蜀 | [[刘备]] | 仁德 |出牌阶段，你可以将至少一张手牌交给一名角色，若你于此阶段内发动“//仁德//”交出的牌数量首次变为不小于2，你回复1点体力。|
 |~|~| 激将 |（没有变化）|
 |~| [[关羽]] | 武圣 |（没有变化）|
 |~| [[张飞]] | 咆哮 |（没有变化）|
@@ -11947,7 +11957,7 @@ button.button:hover {
 <div created="20141027135901882" creator="gltjk" list="标准版武将 神话再临·风武将 神话再临·火武将 神话再临·林武将 神话再临·山武将 一将成名武将 一将成名2012武将 一将成名2013武将 一将成名2014武将 一将成名2015武将 SP武将 界SP武将 OL武将 手机OL武将 RE武将 台YJ武将 英文版武将 ☆SP武将 OL周边武将" modified="20150625093734735" modifier="gltjk" tags="武将速览·模式" title="标准模式武将">
 <pre>&lt;&lt;tabs &quot;[tag[标准模式武将]]&quot; &quot;标准版武将&quot;&gt;&gt;</pre>
 </div>
-<div created="20140908082948724" creator="gltjk" modified="20150927120200712" modifier="gltjk" tags="武将导航" title="标准武将导航">
+<div created="20140908082948724" creator="gltjk" modified="20151027015114610" modifier="gltjk" tags="武将导航" title="标准武将导航">
 <pre>|!标准版| 魏 | [[曹操]] | [[司马懿]] | [[夏侯惇]] | [[张辽]] | [[许褚]] | [[郭嘉]] | [[甄姬]] | [[李典]] |
 |~| 蜀 | [[刘备]] | [[关羽]] | [[张飞]] | [[诸葛亮]] | [[赵云]] | [[马超]] | [[黄月英]] | [[徐庶]] |
 |~| 吴 | [[孙权]] | [[甘宁]] | [[吕蒙]] | [[黄盖]] | [[周瑜]] | [[大乔]] | [[陆逊]] | [[孙尚香]] |
@@ -11967,9 +11977,9 @@ button.button:hover {
 |!JSP| 2015 | [[孙尚香|界SP孙尚香]] | [[马超|界SP马超]] | [[关羽|界SP关羽]] | [[姜维|界SP姜维]] | [[赵云|界SP赵云]] | [[黄月英|界SP黄月英]] |
 |!OL|| [[诸葛恪]] | [[程昱]] | [[孙皓]] |
 |~| M | [[孙茹]] | [[凌操]] | [[留赞]] | [[李丰]] | [[朱灵]] |
-|!RE|| [[马谡|RE马谡]] | [[于禁|RE于禁]] | [[刘表|RE刘表]] | [[马岱|RE马岱]] | [[袁术|RE袁术]] | [[蔡文姬|RE蔡文姬]] | [[孙鲁育|RE孙鲁育]] | [[徐盛|RE徐盛]] | [[步练师|RE步练师]] |</pre>
+|!RE|| [[马谡|RE马谡]] | [[于禁|RE于禁]] | [[刘表|RE刘表]] | [[马岱|RE马岱]] | [[步练师|RE步练师]] | [[袁术|RE袁术]] | [[蔡文姬|RE蔡文姬]] | [[孙鲁育|RE孙鲁育]] | [[徐盛|RE徐盛]] |</pre>
 </div>
-<div created="20141010072751450" creator="gltjk" modified="20150927120022562" modifier="gltjk" tags="武将列表" title="标准武将列表">
+<div created="20141010072751450" creator="gltjk" modified="20151027145907380" modifier="gltjk" tags="武将列表" title="标准武将列表">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|!扩展包|
 | WEI 001 | 魏 | [[曹操]] | 魏武帝 | 男 | 4 |奸雄、护驾| 标准版 |
 | WEI 002 | 魏 | [[司马懿]] | 狼顾之鬼 | 男 | 3 |反馈、鬼才| 标准版 |
@@ -12145,9 +12155,9 @@ button.button:hover {
 | OL 002 | 吴 | [[诸葛恪]] | 兴家赤族 | 男 | 3 |傲才、黩武| OL |
 | OL 004 | 魏 | [[程昱]] | 泰山捧日 | 男 | 3 |设伏、贲育| OL |
 | OL 005 | 吴 | [[孙皓]] | 时日曷丧 | 男 | 5 |残蚀、仇海、归命| OL |
-| OL 00? | 群 | [[士燮]] | ？？？ | 男 | 3 |避乱、礼下| OL |
-| OL 00? | 群 | [[张鲁]] | ？？？ | 男 | 3 |义舍、布施、米道| OL |
-| OL 00? | 蜀 | [[马云騄]] | ？？？ | 女 | 4 |凤魄、马术| OL |
+| OL 016 | 群 | [[张鲁]] | 政宽教惠 | 男 | 3 |义舍、布施、米道| OL |
+| OL 00? | 群 | [[士燮]] | 雄长百越 | 男 | 3 |避乱、礼下| OL |
+| OL 00? | 蜀 | [[马云騄]] | 剑胆琴心 | 女 | 4 |凤魄、马术| OL |
 | M.OL 001 | 吴 | [[孙茹]] | 水中仙子 | 女 | 3 |释衅、轻逸| M.OL |
 | M.OL 002 | 吴 | [[凌操]] | 激流勇进 | 男 | 4 |独进| M.OL |
 | M.OL 003 | 吴 | [[留赞]] | 啸天亢声 | 男 | 4 |奋音| M.OL |
@@ -12157,11 +12167,11 @@ button.button:hover {
 | RE 002 | 魏 | [[于禁|RE于禁]] | 讨暴坚垒 | 男 | 4 |节钺| RE |
 | RE 003 | 群 | [[刘表|RE刘表]] | 跨蹈汉南 | 男 | 3 |自守、宗室| RE |
 | RE 004 | 蜀 | [[马岱|RE马岱]] | 临危受命 | 男 | 4 |马术、潜袭| RE |
+| RE 005 | 吴 | [[步练师|RE步练师]] | 无冕之后 | 女 | 3 |安恤、追忆| RE |
 | RE 00? | 群 | [[袁术|RE袁术]] | ？？？ | 男 | 4 |庸肆、觊玺（妄尊）| RE |
 | RE 00? | 魏 | [[蔡文姬|RE蔡文姬]] | ？？？ | 女 | 3 |陈情、默识| RE |
 | RE 00? | 吴 | [[孙鲁育|RE孙鲁育]] | ？？？ | 女 | 3 |魅步〈止息〉、穆穆| RE |
 | RE 00? | 吴 | [[徐盛|RE徐盛]] | ？？？ | 男 | 4 |破军| RE |
-| RE 00? | 吴 | [[步练师|RE步练师]] | ？？？ | 女 | 3 |安恤、追忆| RE |
 | TAI 001 | 蜀 | [[夏侯霸|台YJ夏侯霸]] | 弃魏投蜀 | 男 | 4 |姻亲、豹变| 一将成名·台湾 |
 | TAI 002 | 吴 | [[祖茂|台YJ祖茂]] | 赤帻映苍天 | 男 | 4 |替巾| 一将成名·台湾 |
 | TAI 003 | 魏 | [[曹昂|台YJ曹昂]] | 舍身救人 | 男 | 4 |孝廉| 一将成名·台湾 |
@@ -12363,11 +12373,11 @@ button.button:hover {
 
 ''追忆''——当你死亡时，你可以选择除杀死你的角色外的一名其他角色，令该角色摸三张牌，然后其回复1点体力。</pre>
 </div>
-<div created="20141011123816175" creator="gltjk" modified="20141106015229454" modifier="gltjk" tags="女性武将 群势力武将 一将成名2014武将" title="蔡夫人">
+<div created="20141011123816175" creator="gltjk" modified="20151027020646637" modifier="gltjk" tags="女性武将 群势力武将 一将成名2014武将" title="蔡夫人">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|
 | YJ 301 | 群 | [[蔡夫人]] | 襄江的蒲苇 | 女 | 3 |窃听、献州|
 ---
-''窃听''——其他角色的回合结束时，若该角色未于此回合内对除其外的角色使用过牌，你可以选择一项：1.将其装备区里的一张牌置入你的装备区；2.摸一张牌。
+''窃听''——其他角色的回合结束后，若该角色未于此回合内对除其外的角色使用过牌，你可以选择一项：1.将其装备区里的一张牌置入你的装备区；2.摸一张牌。
 
 ''献州''——''限定技''。出牌阶段，你可以将装备区里的所有牌交给一名角色，令该角色选择一项：1.令你回复X点体力；2.对其攻击范围内的一至X名角色各造成1点伤害。（X为你以此法交给该角色的牌的数量）</pre>
 </div>
@@ -12517,18 +12527,16 @@ button.button:hover {
 
 ''放逐''——当你受到伤害后，你可以选择一名其他角色，令该角色摸X张牌（X为你已损失的体力值），然后其移置武将牌。</pre>
 </div>
-<div created="20141010075612320" creator="gltjk" modified="20150630093147986" modifier="gltjk" tags="国战标准版武将 男性武将 神话再临·风武将 魏势力武将 旧1v1武将" title="曹仁">
+<div created="20141010075612320" creator="gltjk" modified="20151027131438749" modifier="gltjk" tags="国战标准版武将 男性武将 神话再临·风武将 魏势力武将 旧1v1武将" title="曹仁">
 <pre>◇本条目不是[[☆SP曹仁]]。
 
 |!编号|!势力|!名称|!称号|!性别|!体力|!技能|
-| WEI 011 | 魏 | [[曹仁]] | 大将军 | 男 | 4 |据守、解围|
+| WEI 011 | 魏 | [[曹仁]] | 大将军 | 男 | 4 |据守|
 | G.WEI 011 | 魏 | [[曹仁]] | 大将军 | 男 | 2 |据守|
 | D.WEI 011 | 魏 | [[曹仁]] | 大将军 | 男 | 4 |据守|
 ---
 !!标准
-''据守''——结束阶段开始时，你可以摸一张牌，然后翻置武将牌。
-
-''解围''——当你翻置武将牌后，你可以摸一张牌，然后你可以使用锦囊牌/装备牌，若如此做，你可以弃置场上的一张锦囊牌/装备牌。
+''据守''——①结束阶段开始时，你可以摸一张牌，然后翻置武将牌。②当你因发动“//据守//”或翻面而翻置武将牌后，你可以摸一张牌，然后你可以使用任意锦囊牌/装备牌，若如此做，你可以弃置场上的一张锦囊牌/装备牌。
 
 !!国战
 ''据守''——结束阶段开始时，你可以摸三张牌，然后移置武将牌。
@@ -12552,17 +12560,17 @@ button.button:hover {
 ---
 ''讨袭''——当你于出牌阶段内使用牌指定不为你的唯一目标后，你可以令其一张手牌于此回合内对所有角色可见，若如此做：你能如手牌般使用此牌，或用此牌如手牌般参与转化使用；回合结束时，若其未失去此手牌，你失去1点体力。每阶段限一次。</pre>
 </div>
-<div created="20141011075014449" creator="gltjk" modified="20141011075046761" modifier="gltjk" tags="男性武将 魏势力武将 一将成名2012武将" title="曹彰">
+<div created="20141011075014449" creator="gltjk" modified="20151027060124295" modifier="gltjk" tags="男性武将 魏势力武将 一将成名2012武将" title="曹彰">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|
 | YJ 102 | 魏 | [[曹彰]] | 黄须儿 | 男 | 4 |将驰|
 ---
-''将驰''——摸牌阶段，你可以选择一项：1.多摸一张牌，若如此做，你于此回合内不能使用或打出【杀】；2.少摸一张牌，若如此做，你于此回合内使用【杀】无距离限制且额外次数上限+1。</pre>
+''将驰''——摸牌阶段，你可以选择一项：1.多摸一张牌，若如此做，你于此回合内不能使用或打出【杀】；2.少摸一张牌，若如此做：你于此回合内使用【杀】无距离限制；出牌阶段限一次，你可以使用【杀】。</pre>
 </div>
-<div created="20141011123921728" creator="gltjk" modified="20150203141306836" modifier="gltjk" tags="男性武将 魏势力武将 一将成名2014武将" title="曹真">
+<div created="20141011123921728" creator="gltjk" modified="20151027030232254" modifier="gltjk" tags="男性武将 魏势力武将 一将成名2014武将" title="曹真">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|
 | YJ 302 | 魏 | [[曹真]] | 荷国天督 | 男 | 4 |司敌|
 ---
-''司敌''——①当你使用或其他角色于你的回合内使用【闪】时，你可以将牌堆顶的一张牌置于武将牌上〔称为“钤”〕。②其他角色的出牌阶段开始时，你可以将一张“钤”置入弃牌堆，令该角色于此阶段内使用【杀】的额定次数上限-1。</pre>
+''司敌''——①当你使用或其他角色于你的回合内使用【闪】时，你可以将牌堆顶的一张牌置于武将牌上〔称为“钤”〕。②其他角色的出牌阶段开始时，你可以将一张“钤”置入弃牌堆，令该角色于此阶段内使用【杀】的次数上限-1。</pre>
 </div>
 <div created="20141011021432550" creator="gltjk" modified="20150203144350355" modifier="gltjk" tags="男性武将 魏势力武将 一将成名武将" title="曹植">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|
@@ -12791,10 +12799,10 @@ button.button:hover {
 
 ''眩惑''——摸牌阶段开始时，你可以放弃摸牌并选择一名其他角色，令其摸两张牌，然后该角色可以对其攻击范围内你选择的一名其使用【杀】的合法目标使用【杀】，若其未如此做或其攻击范围内没有使用【杀】的合法目标，你获取其两张牌。</pre>
 </div>
-<div created="20150630075324214" creator="gltjk" modified="20150702222714604" modifier="gltjk" tags="流程" title="翻置事件流程">
+<div created="20150630075324214" creator="gltjk" modified="20151027073133527" modifier="gltjk" tags="流程" title="翻置事件流程">
 <pre>|!时机|!触发事件|
 |!翻置前|&lt;&lt;rd 身份牌：&gt;&gt;''焚心''([[灵雎]])|
-|!翻置后|&lt;&lt;rd 拼点的牌：&gt;&gt;''鹰扬''([[孙策]]·国)&lt;br&gt;&lt;&lt;rd 武将牌(明将模式)：&gt;&gt;''解围''([[曹仁]]·标) ''化身①''([[左慈]]·标) ''法恩''([[陈群]])&lt;br&gt;&lt;&lt;rd 武将牌(暗将模式)：&gt;&gt;''闺秀①''([[糜夫人]]·国) ''弘法①''([[君张角]])|
+|!翻置后|&lt;&lt;rd 拼点的牌：&gt;&gt;''鹰扬''([[孙策]]·国)&lt;br&gt;&lt;&lt;rd 武将牌(明将模式)：&gt;&gt;''据守②''([[曹仁]]·标) ''化身①''([[左慈]]·标) ''法恩''([[陈群]])&lt;br&gt;&lt;&lt;rd 武将牌(暗将模式)：&gt;&gt;''闺秀①''([[糜夫人]]·国) ''弘法①''([[君张角]])|
 
 &gt;◆等价时机：
 &gt;&gt;&lt;&lt;red 亮出前/后&gt;&gt;：翻置(被亮出的牌)前/后
@@ -12892,7 +12900,7 @@ button.button:hover {
 
 ''神智''——准备阶段开始时，你可以弃置所有手牌，若你以此法弃置的牌的数量不小于你的体力值，你回复1点体力。</pre>
 </div>
-<div created="20141010145707519" creator="gltjk" modified="20150702095225403" modifier="gltjk" tags="1v1武将 3v3武将 标准版武将 国战标准版武将 男性武将 吴势力武将" title="甘宁">
+<div created="20141010145707519" creator="gltjk" modified="20151027021948169" modifier="gltjk" tags="1v1武将 3v3武将 标准版武将 国战标准版武将 男性武将 吴势力武将" title="甘宁">
 <pre>◇本条目不是[[☆SP甘宁]]。
 
 |!编号|!势力|!名称|!称号|!性别|!体力|!技能|
@@ -12904,7 +12912,7 @@ button.button:hover {
 !!标准
 ''奇袭''——你可以将一张黑色牌当【过河拆桥】使用。
 
-''奋威''——''限定技''。当锦囊牌指定目标时，若目标数大于1，你可以选择至少一个目标，令此牌对其无效。
+''奋威''——''限定技''。当锦囊牌指定目标后，若目标数大于1，你可以选择至少一个目标，令此牌对其无效。
 
 !!国战 &amp; 3v3 &amp; 1v1
 ''奇袭''——你可以将一张黑色牌当【过河拆桥】使用。</pre>
@@ -12917,12 +12925,14 @@ button.button:hover {
 
 ''禁酒''——''锁定技''。你的【酒】视为【杀】。</pre>
 </div>
-<div created="20141010182447963" creator="gltjk" modified="20150927121428870" modifier="gltjk" tags="关于" title="更新历史">
+<div created="20141010182447963" creator="gltjk" modified="20151027150416814" modifier="gltjk" tags="关于" title="更新历史">
 <pre>本网页的正式名称为《''三国杀游戏规则体系5''》，是原《[[三国杀游戏规则体系|http://gltjk.com/sanguosha/]]》的升级版。&lt;br&gt;原更新历史请参见[[这里|http://gltjk.com/sanguosha/#更新历史]]。
 
 |!版本|!日期|!内容|
 ||&gt;| 2015年↓ |
-| v5.0.1 |0927|更新[[界限突破刘备|刘备]]、[[RE马岱]]。|
+| v5.1 |1027|''更新''：[[曹仁]]、标准版[[刘备|标准版]]、[[祝融]]、[[张角]]、[[周泰]]|
+|~|~|''修改''：调整大量技能结算细节|
+| v5.0.1 |0927|''更新''：[[界限突破刘备|刘备]]、[[RE马岱]]|
 | v5.0 |0910|@@color:red;v5.0正式版发布！@@|
 |~|0901|''增加''：OL修订武将[[步练师|RE步练师]]、[[SP袁术|RE袁术]]，[[武将融合]]专题|
 |~|0821|''增加''：手机OL武将[[诸葛果]]|
@@ -13015,13 +13025,13 @@ button.button:hover {
 ---
 ''父魂''——你可以将两张手牌当【杀】使用或打出，若如此做，当你于出牌阶段内以此法使用【杀】首次造成伤害后，你获得于此回合内的“//武圣//”和“//咆哮//”。</pre>
 </div>
-<div created="20141011132738972" creator="gltjk" modified="20150702222230361" modifier="gltjk" tags="女性武将 蜀势力武将 SP武将" title="关银屏">
+<div created="20141011132738972" creator="gltjk" modified="20151027060715885" modifier="gltjk" tags="女性武将 蜀势力武将 SP武将" title="关银屏">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|
 | SP 014 | 蜀 | [[关银屏]] | 武姬 | 女 | 3 |虎啸、血祭、武继|
 ---
 ''血祭''——出牌阶段限一次，你可以弃置一张红色牌并选择你攻击范围内的1至X名角色（X为你已损失的体力值），对这些角色分别造成1点伤害，然后这些角色各摸一张牌。
 
-''虎啸''——&lt;&lt;unlock&gt;&gt;''锁定技''。当你于出牌阶段内使用的【杀】被抵消时，你令你于此阶段内使用【杀】的额外次数上限+1。
+''虎啸''——&lt;&lt;unlock&gt;&gt;''锁定技''。当你于出牌阶段内使用的【杀】被抵消时，你可以获得以下效果：此阶段限一次，你可以使用【杀】。
 
 ''武继''——''觉醒技''。结束阶段开始时，若你于此回合内造过至少3点伤害，你加1点体力上限，回复1点体力，然后失去“//虎啸//”。</pre>
 </div>
@@ -13082,7 +13092,7 @@ button.button:hover {
 
 ''虎威''——当你登场时，你可以视为使用【水淹七军】。</pre>
 </div>
-<div created="20141010180152412" creator="gltjk" modified="20150927115814435" modifier="gltjk" tags="武将" title="官方武将总表">
+<div created="20141010180152412" creator="gltjk" modified="20151027071430250" modifier="gltjk" tags="武将" title="官方武将总表">
 <pre>!跨模式武将
 |!编号|&gt;|&gt;|!WEI|&gt;|&gt;|!SHU|&gt;|&gt;|!WU|&gt;|&gt;|!QUN|
 | 001 | [[曹操]] |标|国| [[刘备]] |标|国| [[孙权]] |标|国| [[华佗]] |标|国|
@@ -13141,20 +13151,20 @@ button.button:hover {
 |~|~|　||~|　||~|　||~|　|单|
 ---
 !游卡特殊武将
-|!编号|!LE|!G.EM|&gt;|&gt;|&gt;|!SP|!J.SP|!G.SP|!OL|!M.OL|!RE|
-|~|~|~| +0 | +10 | +20 | +30 |~|~|~|~|~|
-| 001 | [[关羽|神关羽]] | [[刘备|君刘备]] | [[杨修]] | [[马超|SP马超]] | [[大乔&amp;小乔]] | [[丁奉|SP丁奉]] | [[孙尚香|界SP孙尚香]] | [[周瑜|国SP周瑜]] || [[孙茹]] | [[马谡|RE马谡]] |
-| 002 | [[吕蒙|神吕蒙]] | [[张角|君张角]] | [[貂蝉|SP貂蝉]] | [[贾诩|SP贾诩]] | [[吕布|SP神吕布]] | [[诸葛诞]] | [[马超|界SP马超]] | [[小乔|国SP小乔]] | [[诸葛恪]] | [[凌操]] | [[于禁|RE于禁]] |
-| 003 | [[周瑜|神周瑜]] || [[公孙瓒|SP公孙瓒]] | [[曹洪|SP曹洪]] | [[夏侯氏|SP夏侯氏]] | [[何太后|SP何太后]] | [[关羽|界SP关羽]] ||| [[留赞]] | [[刘表|RE刘表]] |
-| 004 | [[诸葛亮|神诸葛亮]] || [[袁术|SP袁术]] | [[关银屏]] | [[乐进|SP乐进]] | [[孙鲁育]] | [[姜维|界SP姜维]] || [[程昱]] | [[李丰]] | [[马岱|RE马岱]] |
-| 005 | [[曹操|神曹操]] || [[孙尚香|SP孙尚香]] | [[甄姬|SP甄姬]] | [[张宝]] | [[马良]] | [[赵云|界SP赵云]] || [[孙皓]] | [[朱灵]] ||
-| 006 | [[吕布|神吕布]] || [[庞德|SP庞德]] | [[刘协]] | [[曹昂]] || [[黄月英|界SP黄月英]] |||||
-| 007 | [[赵云|神赵云]] || [[关羽|SP关羽]] | [[灵雎]] | [[诸葛瑾|SP诸葛瑾]] | [[甘夫人|SP甘夫人]] ||||||
-| 008 | [[司马懿|神司马懿]] || [[吕布|虎牢关神吕布]] | [[伏完]] | [[星彩]] | [[黄巾雷使]] ||||||
-| 009 ||| [[蔡文姬|SP蔡文姬]] | [[夏侯霸]] | [[潘凤|SP潘凤]] | [[文聘|SP文聘]] ||||||
-| 010 ||| × | [[陈琳]] | [[祖茂]] | [[司马朗]] ||||||
+|!编号|!LE|!G.EM|&gt;|&gt;|&gt;|!SP|!J.SP|!G.SP|&gt;|!OL|!M.OL|!RE|
+|~|~|~| +0 | +10 | +20 | +30 |~|~| +0 | +10 |~|~|
+| 001 | [[关羽|神关羽]] | [[刘备|君刘备]] | [[杨修]] | [[马超|SP马超]] | [[大乔&amp;小乔]] | [[丁奉|SP丁奉]] | [[孙尚香|界SP孙尚香]] | [[周瑜|国SP周瑜]] ||| [[孙茹]] | [[马谡|RE马谡]] |
+| 002 | [[吕蒙|神吕蒙]] | [[张角|君张角]] | [[貂蝉|SP貂蝉]] | [[贾诩|SP贾诩]] | [[吕布|SP神吕布]] | [[诸葛诞]] | [[马超|界SP马超]] | [[小乔|国SP小乔]] | [[诸葛恪]] || [[凌操]] | [[于禁|RE于禁]] |
+| 003 | [[周瑜|神周瑜]] || [[公孙瓒|SP公孙瓒]] | [[曹洪|SP曹洪]] | [[夏侯氏|SP夏侯氏]] | [[何太后|SP何太后]] | [[关羽|界SP关羽]] |||| [[留赞]] | [[刘表|RE刘表]] |
+| 004 | [[诸葛亮|神诸葛亮]] || [[袁术|SP袁术]] | [[关银屏]] | [[乐进|SP乐进]] | [[孙鲁育]] | [[姜维|界SP姜维]] || [[程昱]] || [[李丰]] | [[马岱|RE马岱]] |
+| 005 | [[曹操|神曹操]] || [[孙尚香|SP孙尚香]] | [[甄姬|SP甄姬]] | [[张宝]] | [[马良]] | [[赵云|界SP赵云]] || [[孙皓]] || [[朱灵]] | [[步练师|RE步练师]] |
+| 006 | [[吕布|神吕布]] || [[庞德|SP庞德]] | [[刘协]] | [[曹昂]] || [[黄月英|界SP黄月英]] ||| [[张鲁]] |||
+| 007 | [[赵云|神赵云]] || [[关羽|SP关羽]] | [[灵雎]] | [[诸葛瑾|SP诸葛瑾]] | [[甘夫人|SP甘夫人]] |||||||
+| 008 | [[司马懿|神司马懿]] || [[吕布|虎牢关神吕布]] | [[伏完]] | [[星彩]] | [[黄巾雷使]] |||||||
+| 009 ||| [[蔡文姬|SP蔡文姬]] | [[夏侯霸]] | [[潘凤|SP潘凤]] | [[文聘|SP文聘]] |||||||
+| 010 ||| × | [[陈琳]] | [[祖茂]] | [[司马朗]] |||||||
 
-编号尚未确定的有：OL武将[[士燮]]、[[张鲁]]、[[马云騄]]，RE武将[[袁术|RE袁术]]、[[蔡文姬|RE蔡文姬]]、[[孙鲁育|RE孙鲁育]]、[[徐盛|RE徐盛]]、[[步练师|RE步练师]]。
+编号尚未确定的有：OL武将[[士燮]]、[[马云騄]]，RE武将[[袁术|RE袁术]]、[[蔡文姬|RE蔡文姬]]、[[孙鲁育|RE孙鲁育]]、[[徐盛|RE徐盛]]。
 
 ---
 !一将成名武将
@@ -13213,13 +13223,13 @@ button.button:hover {
 
 ''遗计''——当你受到1点伤害后，你可以观看牌堆顶的两张牌，然后将其中的一张牌交给一名角色，再将另一张牌交给一名角色。</pre>
 </div>
-<div created="20150626070046238" creator="gltjk" modified="20150626082045535" modifier="gltjk" tags="男性武将 群势力武将 一将成名2015武将" title="郭图&amp;逢纪">
+<div created="20150626070046238" creator="gltjk" modified="20151027143605123" modifier="gltjk" tags="男性武将 群势力武将 一将成名2015武将" title="郭图&amp;逢纪">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|
 | YJ 404 | 群 | [[郭图&amp;逢纪]] | 凶蛇两端 | 男 | 3 |急攻、饰非|
 ---
 ''急攻''——出牌阶段开始时，你可以摸两张牌，若如此做，你的手牌上限于此回合内为X（X为你于此阶段内造成的伤害的伤害值之和）。
 
-''饰非''——当你需要使用/打出【闪】时，你可以令当前回合角色摸一张牌，然后若其不是手牌最多的角色，你弃置一名手牌最多的角色的一张牌，然后视为使用/打出【闪】。</pre>
+''饰非''——当你需要使用/打出【闪】时，你可以令当前回合角色摸一张牌，然后若其不是手牌最多的角色，你弃置一名手牌最多的角色的一张牌，若如此做，你视为使用/打出【闪】。</pre>
 </div>
 <div color="#e08067" created="20141011161813320" creator="gltjk" list="曹操 司马懿 夏侯惇 张辽 许褚 郭嘉 甄姬 夏侯渊 张郃 徐晃 曹仁 典韦 荀彧 曹丕 乐进 刘备 关羽 张飞 诸葛亮 赵云 马超 黄月英 黄忠 魏延 庞统 卧龙诸葛亮 刘禅 孟获 祝融 甘夫人 孙权 甘宁 吕蒙 黄盖 周瑜 大乔 陆逊 孙尚香 孙坚 小乔 太史慈 周泰 鲁肃 张昭&amp;张纮 丁奉 华佗 吕布 貂蝉 袁绍 颜良&amp;文丑 贾诩 庞德 张角 蔡文姬 马腾 孔融 纪灵 田丰 潘凤 邹氏" modified="20141111092643620" modifier="gltjk" tags="国战模式武将" title="国战标准版武将">
 <pre>&lt;&lt;tabs &quot;[tag[国战标准版武将]]&quot; &quot;曹操&quot;&gt;&gt;</pre>
@@ -13639,7 +13649,7 @@ button.button:hover {
 
 @@color:gray;font-size:20px;● 群势力：[[公孙渊]]　[[郭图&amp;逢纪]]@@</pre>
 </div>
-<div created="20141010150914907" creator="gltjk" modified="20141010151017745" modifier="gltjk" tags="1v1武将 3v3武将 标准版武将 国战标准版武将 男性武将 吴势力武将" title="黄盖">
+<div created="20141010150914907" creator="gltjk" modified="20151027060101853" modifier="gltjk" tags="1v1武将 3v3武将 标准版武将 国战标准版武将 男性武将 吴势力武将" title="黄盖">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|
 | WU 004 | 吴 | [[黄盖]] | 轻身为国 | 男 | 4 |苦肉、诈降|
 | G.WU 004 | 吴 | [[黄盖]] | 轻身为国 | 男 | 2 |苦肉|
@@ -13649,7 +13659,7 @@ button.button:hover {
 !!标准
 ''苦肉''——出牌阶段限一次，你可以弃置一张牌，失去1点体力。
 
-''诈降''——''锁定技''。当你失去1点体力后，你摸三张牌，若你于出牌阶段内如此做，于此回合内：你使用红色【杀】无距离限制，且你使用的红色【杀】不是【闪】的合法目标，且你使用【杀】的额外次数上限+1。
+''诈降''——''锁定技''。当你失去1点体力后，你摸三张牌，若你于出牌阶段内如此做：你于此回合内使用红色【杀】无距离限制，且你于此回合内使用的红色【杀】不是【闪】的合法目标；此阶段限一次，你可以使用【杀】。
 
 !!国战 &amp; 3v3 &amp; 1v1
 ''苦肉''——出牌阶段，你可以失去1点体力，摸两张牌。</pre>
@@ -13721,12 +13731,12 @@ button.button:hover {
 !!1v1
 ''烈弓''——当你于出牌阶段内使用【杀】指定一个目标后，若其手牌数不小于你的体力值，你可以令此【杀】不是【闪】的合法目标。</pre>
 </div>
-<div created="20150630155104641" creator="gltjk" modified="20150902023215716" modifier="gltjk" tags="流程" title="回合事件流程">
+<div created="20150630155104641" creator="gltjk" modified="20151027021654456" modifier="gltjk" tags="流程" title="回合事件流程">
 <pre>|!时机|!触发事件|
 |!回合开始前|''谋断③''([[☆SP吕蒙]])|
 |!回合开始时|''化身②''([[左慈]]·标) ''当先''([[廖化]]) ''惴恐''([[伏皇后]]) __''笔伐''__([[陈琳]]) ''誓仇''([[☆SP刘备]])|
-|!回合结束时|__''横江''__([[臧霸]]·国) __''替身''__([[张飞]]·标) __''放权''__([[刘禅]]·标国) __''谦逊''__([[陆逊]]·标) ''窃听''([[蔡夫人]]) __''讨袭''__([[曹休]]) __''镇卫''__([[SP文聘]]) ''觊玺''([[RE袁术]])|
-|!回合结束后|''博图''([[吕蒙]]·单) ''化身②''([[左慈]]·标) ''戚乱''([[何太后]]·国/[[SP何太后]]) ''连破''([[神司马懿]]) __''明鉴''__([[曹睿]]) __''咒缚''__([[张宝]]) __''军威''__([[☆SP甘宁]])|</pre>
+|!回合结束时|__''替身''__([[张飞]]·标) __''放权''__([[刘禅]]·标国)  __''讨袭''__([[曹休]]) ''觊玺''([[RE袁术]])|
+|!回合结束后|__''横江''__([[臧霸]]·国) ''博图''([[吕蒙]]·单) __''谦逊''__([[陆逊]]·标) ''化身②''([[左慈]]·标) ''戚乱''([[何太后]]·国/[[SP何太后]]) ''连破''([[神司马懿]]) ''窃听''([[蔡夫人]]) __''明鉴''__([[曹睿]]) __''咒缚''__([[张宝]]) __''镇卫''__([[SP文聘]]) __''破军''__([[RE徐盛]]) __''军威''__([[☆SP甘宁]])|</pre>
 </div>
 <div created="20141014024410739" creator="gltjk" modified="20150216110845190" modifier="gltjk" tags="锦囊牌·非延时 标准游戏牌 国战游戏牌" title="火攻">
 <pre>|!类别|!子类|!名称|!属性|!所属包|!小计|!花色|!总计|!模式|
@@ -13944,7 +13954,7 @@ button.button:hover {
 
 ''守成''——当一名与你势力相同的角色于回合外失去所有手牌后，你可以令该角色摸一张牌。</pre>
 </div>
-<div created="20150630065335973" creator="gltjk" modified="20150927120234122" modifier="gltjk" tags="流程" title="阶段事件流程">
+<div created="20150630065335973" creator="gltjk" modified="20151027073103781" modifier="gltjk" tags="流程" title="阶段事件流程">
 <pre>|&gt;|!时机|!触发事件|
 |!准&lt;br&gt;备&lt;br&gt;阶&lt;br&gt;段|!开始前||
 |~|!开始时|''洛神''([[甄姬]]·标国竞单/[[SP甄姬]]) ''凿险''([[邓艾]]·标) ''替身''([[张飞]]·标) ''观星''([[诸葛亮]]·标国竞单/[[姜维]]·__标国__//竞//) ''志继''([[姜维]]·标竞) ''若愚''([[刘禅]]·标) ''神智''([[甘夫人]]·国/[[SP甘夫人]]) ''潜袭''([[马岱]]·国/[[YJ马岱]]/[[RE马岱]]) ''勤学''([[吕蒙]]·标) ''英魂''([[孙坚]]·标国竞单/[[孙策]]·__标国竞__) ''魂姿''([[孙策]]·标竞) ''魂殇②''([[孙策]]·国) ''战神''([[吕布]]·竞) ''妄尊''([[袁术]]·标/__[[RE袁术]]__) ''拜印''([[神司马懿]]) ''弘法②''([[君张角]]) ''自立''([[钟会]]) ''陷嗣①''([[刘封]]) ''单骑''([[SP关羽]]/[[界SP关羽]]) ''修罗''([[虎牢关神吕布]]) ''绝地''([[祖茂]]) ''举义''([[诸葛诞]]) ''返乡''([[界SP孙尚香]]) ''随仁''([[界SP赵云]]) ''节钺③''([[RE于禁]]) ''姻亲''([[台YJ夏侯霸]]) ''醉乡''([[☆SP庞统]]) __''醉乡''__([[☆SP庞统]]) ''炙日''([[旱魃]])|
@@ -13963,7 +13973,7 @@ button.button:hover {
 |~|!结束后||
 |!出&lt;br&gt;牌&lt;br&gt;阶&lt;br&gt;段|!开始前|''神速②''([[夏侯渊]]·标国竞单&lt;&lt;slash&gt;&gt;//[[夏侯霸]]//) ''巧变''([[张郃]]·标国) ''放权''([[刘禅]]·标国) ''明鉴''([[曹睿]])|
 |~|!开始时|''双刃''([[纪灵]]·国) ''鸩毒''([[何太后]]·国/[[SP何太后]]) ''巧说''([[简雍]]) ''司敌②''([[曹真]]) ''强识''([[张松]]) ''献图''([[张松]]) ''急攻''([[郭图&amp;逢纪]]) ''燕语''([[SP夏侯氏]]) ''魅步''([[孙鲁育]]/[[RE孙鲁育]]) ''刺槐''([[界SP马超]]) ''机巧''([[界SP黄月英]]) ''玉玺③''([[玉玺]]·国)|
-|~|!(空闲时间点)|''挟缠''([[许褚]]·单) ''强袭''([[典韦]]·标国单) ''驱虎''([[荀彧]]·标国) ''仁德''([[刘备]]·标国竞/__[[君刘备]]__) ''义绝''([[关羽]]·标) ''忠义''([[关羽]]·竞) ''挑衅''([[姜维]]·标国竞单&lt;&lt;slash&gt;&gt;//[[夏侯霸]]//&lt;&lt;slash&gt;&gt;__[[界SP姜维]]__) ''荐言''([[徐庶]]·__标__) ''存嗣''([[糜夫人]]·国) ''制衡''([[孙权]]·标国竞单) ''攻心''([[吕蒙]]·__标__) ''苦肉''([[黄盖]]·标国竞单) ''反间''([[周瑜]]·标国竞单/[[国SP周瑜]]) ''国色''([[大乔]]·标) ''度势''([[陆逊]]·国) ''结姻''([[孙尚香]]·标国竞/[[SP孙尚香]]) ''制霸''([[孙策]]·标) ''天义''([[太史慈]]·标国) ''缔盟''([[鲁肃]]·标国) ''直谏''([[张昭&amp;张纮]]·标国) ''奋迅''([[丁奉]]·国/[[SP丁奉]]) ''尚义''([[蒋钦]]·国) ''断绁''([[陈武&amp;董袭]]·国) ''除疠''([[华佗]]·标) ''青囊''([[华佗]]·国竞) ''普济''([[华佗]]·单) ''离间''([[貂蝉]]·标国竞/[[SP貂蝉]]) ''乱武''([[贾诩]]·标国竞/[[SP贾诩]]) ''黄天''([[张角]]·标) ''雄异''([[马腾]]·国) ''祸水①''([[邹氏]]·国) ''倾城''([[邹氏]]·国) ''谋诛''([[何进]]·单) ''攻心''([[神吕蒙]]) ''业炎''([[神周瑜]]) ''无前''([[神吕布]]/[[SP神吕布]]) ''神愤''([[神吕布]]/[[SP神吕布]]) ''极略[完杀]''(__[[神司马懿]]__) ''极略[制衡]''(__[[神司马懿]]__) ''问道''([[君张角]]) ''明策''([[陈宫]]) ''陷阵''([[高顺]]) ''心战''([[马谡]]) ''甘露''([[吴国太]]) ''排异''(__[[钟会]]__) ''安恤''([[步练师]]/[[RE步练师]]) ''弓骑''([[韩当]]) ''解烦''([[韩当]]) ''奇策''([[荀攸]]) ''灭计''([[李儒]]) ''焚城''([[李儒]]) ''峻刑''([[满宠]]) ''胆守''([[朱然]]) ''献州''([[蔡夫人]]) ''定品''([[陈群]]) ''慎行''([[顾雍]]) ''怀异''([[公孙渊]]) ''宴诛''([[孙休]]) ''燕语①''([[YJ夏侯氏]]) ''怃戎''([[张嶷]]) ''安国''([[朱治]]) ''血祭''([[关银屏]]) ''密诏''([[刘协]]) ''颂词''([[陈琳]]) ''咒缚''([[张宝]]) ''枪舞''([[星彩]]) ''协穆''([[马良]]) ''去疾''([[司马朗]]) ''黩武''([[诸葛恪]]) ''战意''([[朱灵]]) ''散谣''([[RE马谡]]) ''穆穆''([[RE孙鲁育]]) ''离魂''([[☆SP貂蝉]]) ''大喝''([[☆SP张飞]]) ''探虎''([[☆SP吕蒙]]) ''言笑''([[☆SP大乔]]) ''银铃''([[☆SP甘宁]]) ''心惔''(__[[旱魃]]__) ''木牛流马①''([[木牛流马]]·标国)|
+|~|!(空闲时间点)|''挟缠''([[许褚]]·单) ''强袭''([[典韦]]·标国单) ''驱虎''([[荀彧]]·标国) ''仁德''([[刘备]]·标国竞/__[[君刘备]]__) ''义绝''([[关羽]]·标) ''忠义''([[关羽]]·竞) ''挑衅''([[姜维]]·标国竞单&lt;&lt;slash&gt;&gt;//[[夏侯霸]]//&lt;&lt;slash&gt;&gt;__[[界SP姜维]]__) ''荐言''([[徐庶]]·__标__) ''存嗣''([[糜夫人]]·国) ''制衡''([[孙权]]·标国竞单) ''攻心''([[吕蒙]]·__标__) ''苦肉''([[黄盖]]·标国竞单) __''诈降''__([[黄盖]]·标) ''反间''([[周瑜]]·标国竞单/[[国SP周瑜]]) ''国色''([[大乔]]·标) ''度势''([[陆逊]]·国) ''结姻''([[孙尚香]]·标国竞/[[SP孙尚香]]) ''制霸''([[孙策]]·标) ''天义''([[太史慈]]·标国) __''天义''__([[太史慈]]·标国) ''缔盟''([[鲁肃]]·标国) ''直谏''([[张昭&amp;张纮]]·标国) ''奋迅''([[丁奉]]·国/[[SP丁奉]]) ''尚义''([[蒋钦]]·国) ''断绁''([[陈武&amp;董袭]]·国) ''除疠''([[华佗]]·标) ''青囊''([[华佗]]·国竞) ''普济''([[华佗]]·单) ''离间''([[貂蝉]]·标国竞/[[SP貂蝉]]) ''乱武''([[贾诩]]·标国竞/[[SP贾诩]]) ''黄天''([[张角]]·标) ''雄异''([[马腾]]·国) ''祸水①''([[邹氏]]·国) ''倾城''([[邹氏]]·国) ''谋诛''([[何进]]·单) ''攻心''([[神吕蒙]]) ''业炎''([[神周瑜]]) ''无前''([[神吕布]]/[[SP神吕布]]) ''神愤''([[神吕布]]/[[SP神吕布]]) ''极略[完杀]''(__[[神司马懿]]__) ''极略[制衡]''(__[[神司马懿]]__) ''问道''([[君张角]]) ''明策''([[陈宫]]) ''陷阵''([[高顺]]) ''心战''([[马谡]]) ''甘露''([[吴国太]]) ''排异''(__[[钟会]]__) ''安恤''([[步练师]]/[[RE步练师]]) __''将驰''__([[曹彰]]) ''弓骑''([[韩当]]) ''解烦''([[韩当]]) ''奇策''([[荀攸]]) ''灭计''([[李儒]]) ''焚城''([[李儒]]) ''峻刑''([[满宠]]) ''胆守''([[朱然]]) ''献州''([[蔡夫人]]) ''定品''([[陈群]]) ''慎行''([[顾雍]]) ''怀异''([[公孙渊]]) ''宴诛''([[孙休]]) ''燕语①''([[YJ夏侯氏]]) ''怃戎''([[张嶷]]) ''安国''([[朱治]]) ''血祭''([[关银屏]]) __''虎啸''__([[关银屏]]) ''密诏''([[刘协]]) ''颂词''([[陈琳]]) ''咒缚''([[张宝]]) ''枪舞''([[星彩]]) ''协穆''([[马良]]) ''去疾''([[司马朗]]) ''黩武''([[诸葛恪]]) ''战意''([[朱灵]]) ''散谣''([[RE马谡]]) ''穆穆''([[RE孙鲁育]]) ''离魂''([[☆SP貂蝉]]) ''大喝''([[☆SP张飞]]) ''探虎''([[☆SP吕蒙]]) ''言笑''([[☆SP大乔]]) ''银铃''([[☆SP甘宁]]) ''心惔''(__[[旱魃]]__) ''木牛流马①''([[木牛流马]]·标国)|
 |~|!结束时|''生息''([[蒋琬&amp;费祎]]·国) ''暴凌''([[董卓]]·国) ''精策''([[郭淮]]) __''献图''__([[张松]]) ''燕语②''([[YJ夏侯氏]]) __''离魂''__([[☆SP貂蝉]])|
 |~|!结束后||
 |!弃&lt;br&gt;牌&lt;br&gt;阶&lt;br&gt;段|!开始前|''巧变''([[张郃]]·标国) ''克己''([[吕蒙]]·标国&lt;&lt;slash&gt;&gt;//[[文/武|☆SP吕蒙]]//)|
@@ -13972,7 +13982,7 @@ button.button:hover {
 |~|!结束时|''固政''([[张昭&amp;张纮]]·标国) ''琴音''([[神周瑜]]) ''旋风''([[凌统]])|
 |~|!结束后||
 |!结&lt;br&gt;束&lt;br&gt;阶&lt;br&gt;段|!开始前||
-|~|!开始时|''据守''([[曹仁]]·标国单) ''骁果''([[乐进]]·国/[[SP乐进]]) ''护援''([[曹洪]]·国) ''诛害''([[徐庶]]·标) ''奋命''([[陈武&amp;董袭]]·国) ''闭月''([[貂蝉]]·标国竞单/[[SP貂蝉]]/[[☆SP貂蝉]]) ''崩坏''([[董卓]]·标__国__/__[[诸葛诞]]__) ''逆乱''([[韩遂]]·单) ''狂风''([[神诸葛亮]]) ''大雾''([[神诸葛亮]]) ''举荐''([[YJ徐庶]]) ''醇醪①''([[程普]]) ''秘计''([[王异]]) ''绝策''([[李儒]]) ''直言''([[虞翻]]) ''秉壹''([[顾雍]]) ''诱敌''([[朱桓]]) ''兴学''([[孙休]]) ''樵拾''([[YJ夏侯氏]]) ''援护''([[SP曹洪]]) ''武继''([[关银屏]]) ''笔伐''([[陈琳]]) ''引兵①''([[祖茂]]) ''穆穆''([[孙鲁育]]) ''郡兵''([[司马朗]]) ''困奋''([[界SP姜维]]) ''设伏①''([[程昱]]) ''礼下''([[士燮]]) ''义舍①''([[张鲁]]) ''输粮''([[李丰]]) ''节钺①''([[RE于禁]]) __''破军''__([[RE徐盛]]) ''默识''([[RE蔡文姬]]) ''溃围''([[☆SP曹仁]]) ''军威''([[☆SP甘宁]]) ''雪恨''([[☆SP夏侯惇]]) ''焚天①''([[旱魃]])|
+|~|!开始时|''据守①''([[曹仁]]·标) ''据守''([[曹仁]]·国单) ''骁果''([[乐进]]·国/[[SP乐进]]) ''护援''([[曹洪]]·国) ''诛害''([[徐庶]]·标) ''奋命''([[陈武&amp;董袭]]·国) ''闭月''([[貂蝉]]·标国竞单/[[SP貂蝉]]/[[☆SP貂蝉]]) ''崩坏''([[董卓]]·标__国__/__[[诸葛诞]]__) ''逆乱''([[韩遂]]·单) ''狂风''([[神诸葛亮]]) ''大雾''([[神诸葛亮]]) ''举荐''([[YJ徐庶]]) ''醇醪①''([[程普]]) ''秘计''([[王异]]) ''绝策''([[李儒]]) ''直言''([[虞翻]]) ''秉壹''([[顾雍]]) ''诱敌''([[朱桓]]) ''兴学''([[孙休]]) ''樵拾''([[YJ夏侯氏]]) ''援护''([[SP曹洪]]) ''武继''([[关银屏]]) ''笔伐''([[陈琳]]) ''引兵①''([[祖茂]]) ''穆穆''([[孙鲁育]]) ''郡兵''([[司马朗]]) ''困奋''([[界SP姜维]]) ''设伏①''([[程昱]]) ''礼下''([[士燮]]) ''义舍①''([[张鲁]]) ''输粮''([[李丰]]) ''节钺①''([[RE于禁]]) ''默识''([[RE蔡文姬]]) ''溃围''([[☆SP曹仁]]) ''军威''([[☆SP甘宁]]) ''雪恨''([[☆SP夏侯惇]]) ''焚天①''([[旱魃]])|
 |~|!～||
 |~|!结束时||
 |~|!结束后||
@@ -14119,7 +14129,7 @@ button.button:hover {
 !!1v1
 出牌阶段，对对手使用。由目标开始，其与你轮流打出【杀】，直到其中的一名角色未打出【杀】，未打出【杀】的角色受到另一名角色造成的1点伤害。</pre>
 </div>
-<div created="20141106090047808" creator="gltjk" modified="20150618153902211" modifier="gltjk" tags="玩点论杀" title="军形篇武将">
+<div created="20141106090047808" creator="gltjk" modified="20151027030401113" modifier="gltjk" tags="玩点论杀" title="军形篇武将">
 <pre>!!程畿
 |!编号|!势力|!名称|!称号|!性别|!体力|!技能|!设计|!插画|
 | WD 101 | 蜀 | 程畿 | 临渊承龙 | 男 | 3 |阻敌、决死| Virgopaladin | Sky |
@@ -14160,7 +14170,7 @@ button.button:hover {
 |!编号|!势力|!名称|!称号|!性别|!体力|!技能|!设计|!插画|
 | WD 105 | 吴 | 贺齐 | 马踏群峦 | 男 | 4 |讨叛、应援| 祝家大少zjh | B_LEE |
 
-''讨叛''——出牌阶段开始时，你可以将一张装备牌置入装备区，视为使用【杀】，若如此做，你于此阶段内使用【杀】的额定次数上限-1。若你装备区里红色牌多于黑色牌，你于此【杀】结算结束之前无视目标的防具，否则你使用此【杀】无距离限制。
+''讨叛''——出牌阶段开始时，你可以将一张装备牌置入装备区，视为使用【杀】，若如此做，你于此阶段内使用【杀】的次数上限-1。若你装备区里红色牌多于黑色牌，你于此【杀】结算结束之前无视目标的防具，否则你使用此【杀】无距离限制。
 
 ''应援''——其他角色的结束阶段开始时，你可以获取装备区里的一张非坐骑牌，令该角色摸一张牌。
 
@@ -14343,7 +14353,7 @@ button.button:hover {
 <div created="20150630021043380" creator="gltjk" modified="20150927130949945" modifier="gltjk" tags="关于" title="历史版本">
 <pre>|&gt;|&gt;|&gt;|&gt;|&gt;|&gt;|&gt;|&gt;|&gt;|!三国杀游戏规则体系&lt;&lt;five&gt;&gt;|
 |!全新版| ''&lt;&lt;ve &quot;5.0α&quot; 50alpha&gt;&gt;'' | ''&lt;&lt;ve &quot;5.0β&quot; 50beta&gt;&gt;'' | &lt;&lt;ve &quot;5.0β2&quot; 50beta2&gt;&gt; | &lt;&lt;ve &quot;5.0β3&quot; 50beta3&gt;&gt; | &lt;&lt;ve &quot;5.0β4&quot; 50beta4&gt;&gt; | &lt;&lt;ve &quot;5.0β5&quot; 50beta5&gt;&gt; | &lt;&lt;ve &quot;5.0β6&quot; 50beta6&gt;&gt; | &lt;&lt;ve &quot;5.0β7&quot; 50beta7&gt;&gt; |
-|~| &lt;&lt;ve &quot;5.0β8&quot; 50beta8&gt;&gt; | &lt;&lt;ve &quot;5.0β9&quot; 50beta9&gt;&gt; | &lt;&lt;ve &quot;5.0β10&quot; 50beta10&gt;&gt; | ''&lt;&lt;v &quot;5.0&quot;&gt;&gt;'' | [[v5.0.1|http://gltjk.com/sgs5]] |
+|~| &lt;&lt;ve &quot;5.0β8&quot; 50beta8&gt;&gt; | &lt;&lt;ve &quot;5.0β9&quot; 50beta9&gt;&gt; | &lt;&lt;ve &quot;5.0β10&quot; 50beta10&gt;&gt; | ''&lt;&lt;v &quot;5.0&quot;&gt;&gt;'' | &lt;&lt;v &quot;5.0.1&quot;&gt;&gt; | ''[[v5.1|http://gltjk.com/sgs5]]'' |
 
 |&gt;|&gt;|&gt;|&gt;|&gt;|&gt;|&gt;|&gt;|&gt;|!三国杀游戏规则体系|
 |!童心版| ''v1.0'' | ''v1.1'' | v1.1.1 | v1.1.2 | v1.1.3 | v1.1.4 | v1.1.5 | ''v1.2'' | v1.2.1 |
@@ -14393,7 +14403,7 @@ button.button:hover {
 ---
 ''旋风''——当你失去装备区里的牌后，或弃牌阶段结束时（若你于此阶段内因弃牌而弃置过至少两张手牌），你可以选择一项：1.选择一名能被你弃置牌的角色，然后依次弃置该角色的两张牌；2.选择两名能被你弃置牌的角色，然后弃置这些角色的各一张牌。</pre>
 </div>
-<div created="20141010084549195" creator="gltjk" modified="20150927115124784" modifier="gltjk" tags="蜀势力武将 1v1武将 3v3武将 标准版武将 国战标准版武将 男性武将" title="刘备">
+<div created="20141010084549195" creator="gltjk" modified="20151027142345248" modifier="gltjk" tags="蜀势力武将 1v1武将 3v3武将 标准版武将 国战标准版武将 男性武将" title="刘备">
 <pre>◇本条目不是[[君刘备]]或[[☆SP刘备]]。
 
 |!编号|!势力|!名称|!称号|!性别|!体力|!技能|
@@ -14403,15 +14413,15 @@ button.button:hover {
 | D.SHU 001 | 蜀 | [[刘备]] | 乱世的枭雄 | 男 | 4 |仁望|
 ---
 !!标准
-''仁德''——出牌阶段，你可以将至少一张手牌交给一名角色，若你于此阶段内以此法交给其他角色的手牌不少于两张，你视为使用任意基本牌（每阶段限一次）。
+''仁德''——出牌阶段，你可以将至少一张手牌交给一名角色（若如此做，其于此阶段内不是你发动“//仁德//”的合法目标），若你于此阶段内发动“//仁德//”交出的牌数量首次变为不小于2，你可以视为使用任意基本牌。
 
 ''激将''——''主公技''。当你需要使用/打出【杀】时，你可以视为使用/打出【杀】并请求其他蜀势力角色打出【杀】（不置入弃牌堆）：若有角色打出【杀】，终止请求流程，你使用/打出的【杀】的牌面信息和实体牌与之相同；若没有角色打出【杀】，此【杀】作废。
 
 !!国战
-''仁德''——出牌阶段，你可以将至少一张手牌交给一名角色，若你于此阶段内以此法交给其他角色的手牌不少于三张，你回复1点体力（每阶段限一次）。
+''仁德''——出牌阶段，你可以将至少一张手牌交给一名角色，若你于此阶段内发动“//仁德//”交出的牌数量首次变为不小于3，你回复1点体力。
 
 !!3v3
-''仁德''——出牌阶段，你可以将至少一张手牌交给一名角色，若你于此阶段内以此法交给其他角色的手牌不少于两张，你回复1点体力（每阶段限一次）。
+''仁德''——出牌阶段，你可以将至少一张手牌交给一名角色，若你于此阶段内发动“//仁德//”交出的牌数量首次变为不小于2，你回复1点体力。
 
 !!1v1
 ''仁望''——当对手于出牌阶段内对你使用第X张是【杀】或非延时类锦囊牌的牌时（X不小于2），你可以弃置其一张牌。</pre>
@@ -14445,11 +14455,11 @@ button.button:hover {
 
 ''放权''——你可以跳过出牌阶段，若如此做，回合结束时，你可以弃置一张手牌并选择一名其他角色，若如此做，该角色获得一个额外的回合。</pre>
 </div>
-<div created="20150626060729086" creator="gltjk" modified="20150927154954432" modifier="gltjk" tags="蜀势力武将 一将成名2015武将 男性武将" title="刘谌">
+<div created="20150626060729086" creator="gltjk" modified="20151027155626948" modifier="gltjk" tags="蜀势力武将 一将成名2015武将 男性武将" title="刘谌">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|
 | YJ 405 | 蜀 | [[刘谌]] | 血荐轩辕 | 男 | 4 |战绝、勤王|
 ---
-''战绝''——你可以将所有手牌当【决斗】使用，若如此做，当此【决斗】结算结束后，你令你和因执行此牌效果而受到伤害的角色各摸一张牌。若你于同一阶段内以此法摸的牌不少于两张，“//战绝//”于此回合内无效。
+''战绝''——你可以将所有手牌当【决斗】使用，若如此做，当此【决斗】结算结束后，你摸一张牌，然后受到此牌造成的伤害的角色摸一张牌。若你于同一阶段内以此法摸的牌不少于两张，“//战绝//”于此回合内无效。
 
 ''勤王''——''主公技''。当你需要使用或打出【杀】时，你可以弃置一张牌，视为发动“//激将//”，若如此做，当其他角色因响应此“//激将//”而打出【杀】时，该角色摸一张牌。</pre>
 </div>
@@ -14459,11 +14469,11 @@ button.button:hover {
 ---
 ''陷嗣''——①准备阶段开始时，你可以选择将一至两名有牌的角色，将这些角色的各一张牌置于武将牌上〔称为“逆”〕。②当一名角色需要对你使用【杀】时，该角色可以将两张“逆”置入弃牌堆，视为对你使用【杀】（计入限制的使用次数）。</pre>
 </div>
-<div created="20141011133002213" creator="gltjk" modified="20141011142149753" modifier="gltjk" tags="男性武将 群势力武将 SP武将" title="刘协">
+<div created="20141011133002213" creator="gltjk" modified="20151027022014858" modifier="gltjk" tags="男性武将 群势力武将 SP武将" title="刘协">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|
 | SP 016 | 群 | [[刘协]] | 受困天子 | 男 | 3 |天命、密诏|
 ---
-''天命''——当你成为【杀】的目标时，你可以先弃置两张牌再摸两张牌，若体力值最大的角色仅有一名且不是你，该角色可以先弃置两张牌再摸两张牌。
+''天命''——当你成为【杀】的目标后，你可以先弃置两张牌再摸两张牌，若体力值最大的角色仅有一名且不是你，该角色可以先弃置两张牌再摸两张牌。
 
 ''密诏''——出牌阶段限一次，你可以将所有手牌交给一名其他角色，令该角色与你选择的另一名有手牌的角色拼点，然后拼点赢的角色视为对拼点没赢的角色使用【杀】（无距离限制）。</pre>
 </div>
@@ -14486,14 +14496,14 @@ button.button:hover {
 
 ''缔盟''——出牌阶段限一次，你可以选择两名其他角色并弃置X张牌（X为这些角色手牌数的差），令其交换手牌。</pre>
 </div>
-<div created="20141010152105479" creator="gltjk" modified="20150210100344474" modifier="gltjk" tags="旧1v1武将 国战标准版武将 标准版武将 吴势力武将 男性武将" title="陆逊">
+<div created="20141010152105479" creator="gltjk" modified="20151027021051087" modifier="gltjk" tags="旧1v1武将 国战标准版武将 标准版武将 吴势力武将 男性武将" title="陆逊">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|
 | WU 007 | 吴 | [[陆逊]] | 儒生雄才 | 男 | 3 |谦逊、连营|
 | G.WU 007 | 吴 | [[陆逊]] | 擎天之柱 | 男 | 1.5 |谦逊、度势|
 | D.WU 007 | 吴 | [[陆逊]] | 儒生雄才 | 男 | 3 |谦逊、连营|
 ---
 !!标准
-''谦逊''——当延时类锦囊牌或其他角色使用的非延时类锦囊牌生效时，若你是此牌唯一的目标，你可以将所有手牌扣置于武将牌上〔称为“节”〕，若如此做，当前回合结束时，你获取所有“节”。
+''谦逊''——当延时类锦囊牌或其他角色使用的非延时类锦囊牌生效时，若你是此牌唯一的目标，你可以将所有手牌扣置于武将牌上〔称为“节”〕，若如此做，当前回合结束后，你获取所有“节”。
 
 ''连营''——当你失去所有手牌后，你可以选择一至X名角色，令这些角色各摸一张牌（X为你此次失去的手牌的数量）。
 
@@ -14654,9 +14664,9 @@ button.button:hover {
 
 ''雄异''——''限定技''。出牌阶段，你可以令所有与你势力相同的角色各摸三张牌，然后若你的势力是角色最少的势力，你回复1点体力。</pre>
 </div>
-<div created="20150621083109797" creator="gltjk" modified="20150624084131869" modifier="gltjk" tags="蜀势力武将 女性武将 OL武将" title="马云騄">
+<div created="20150621083109797" creator="gltjk" modified="20151027145735058" modifier="gltjk" tags="蜀势力武将 女性武将 OL武将" title="马云騄">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|
-| OL 00? | 蜀 | [[马云騄]] | ？？？ | 女 | 4 |凤魄、马术|
+| OL 00? | 蜀 | [[马云騄]] | 剑胆琴心 | 女 | 4 |凤魄、马术|
 ---
 ''凤魄''——当你使用【杀】或【决斗】指定唯一的目标后，若此牌为你于出牌阶段内使用的第一张牌，你可以选择一项：1.摸X张牌；2.令此牌的伤害值基数+X。（X为其手牌中&lt;&lt;diamond&gt;&gt;牌的数量）
 
@@ -14903,7 +14913,7 @@ button.button:hover {
 ---
 ''振赡''——当你需要使用/打出基本牌时，你可以与一名手牌少于你的角色交换手牌，视为使用/打出此牌。每回合限一次。</pre>
 </div>
-<div color="#d0d0d0" created="20141010211206285" creator="gltjk" list="华佗 吕布 貂蝉 袁绍 颜良&amp;文丑 董卓 贾诩 庞德 左慈 张角 于吉 蔡文姬 马腾 孔融 纪灵 田丰 潘凤 邹氏 华雄 何太后 袁术 张任 何进 公孙瓒 韩遂 君张角 陈宫 高顺 YJ华雄 刘表 伏皇后 李儒 蔡夫人 沮授 公孙渊 郭图&amp;逢纪 SP貂蝉 SP公孙瓒 SP袁术 SP马超 刘协 灵雎 伏完 黄巾雷使 张宝 SP潘凤 SP何太后 界SP马超 界SP赵云 界SP黄月英 ☆SP赵云 ☆SP貂蝉 ☆SP庞统 ☆SP甘宁 旱魃" modified="20150626020402761" modifier="gltjk" tags="武将速览·势力" title="群势力武将">
+<div color="#d0d0d0" created="20141010211206285" creator="gltjk" list="华佗 吕布 貂蝉 袁绍 颜良&amp;文丑 董卓 贾诩 庞德 左慈 张角 于吉 蔡文姬 马腾 孔融 纪灵 田丰 潘凤 邹氏 华雄 何太后 袁术 张任 何进 公孙瓒 韩遂 君张角 陈宫 高顺 YJ华雄 刘表 伏皇后 李儒 蔡夫人 沮授 公孙渊 郭图&amp;逢纪 SP貂蝉 SP公孙瓒 SP袁术 SP马超 刘协 灵雎 伏完 黄巾雷使 张宝 SP潘凤 SP何太后 界SP马超 界SP赵云 界SP黄月英 RE刘表 ☆SP赵云 ☆SP貂蝉 ☆SP庞统 ☆SP甘宁 旱魃" modified="20151027015236462" modifier="gltjk" tags="武将速览·势力" title="群势力武将">
 <pre>&lt;&lt;tabs &quot;[tag[群势力武将]]&quot; &quot;华佗&quot;&gt;&gt;</pre>
 </div>
 <div created="20141014081053272" creator="gltjk" modified="20141027145439492" modifier="gltjk" tags="装备牌·防具 1v1游戏牌 3v3游戏牌 标准游戏牌 国战游戏牌" title="仁王盾">
@@ -14971,13 +14981,13 @@ button.button:hover {
 
 &gt;◆【闪电】在使用流程结束之后移动的目标区域由弃牌堆改为下一个合法目标的判定区。</pre>
 </div>
-<div created="20150630064223783" creator="gltjk" modified="20150716004447277" modifier="gltjk" tags="流程" title="伤害事件流程">
+<div created="20150630064223783" creator="gltjk" modified="20151027073013195" modifier="gltjk" tags="流程" title="伤害事件流程">
 <pre>|!时机|!触发事件|
 |!伤害结算开始前|''绝情''([[张春华]])|
 |!伤害结算开始时|__''狂风''__([[神诸葛亮]]) __''大雾''__([[神诸葛亮]])|
-|!造成伤害时|__''裸衣''__([[许褚]]·标) __''忠义''__([[关羽]]·竞) __''雷击''__([[张角]]·标) ''耀武''([[华雄]]·标) ''穿心''([[张任]]·国) ''无言①''([[YJ徐庶]]) ''暗箭''([[潘璋&amp;马忠]]) ''竭缘①''([[灵雎]]) ''助祭''([[黄巾雷使]]) ''制蛮''([[RE马谡]]) ''豹变''([[台YJ夏侯霸]]) ''嫉恶''([[☆SP张飞]]) ''安娴①''([[☆SP大乔]]) ''麒麟弓''([[麒麟弓]]·标国竞)|
+|!造成伤害时|__''裸衣''__([[许褚]]·标) __''忠义''__([[关羽]]·竞)  ''耀武''([[华雄]]·标) ''穿心''([[张任]]·国) ''无言①''([[YJ徐庶]]) ''暗箭''([[潘璋&amp;马忠]]) ''竭缘①''([[灵雎]]) ''助祭''([[黄巾雷使]]) ''制蛮''([[RE马谡]]) ''豹变''([[台YJ夏侯霸]]) ''嫉恶''([[☆SP张飞]]) ''安娴①''([[☆SP大乔]]) ''麒麟弓''([[麒麟弓]]·标国竞)|
 |!受到伤害时|''天香''([[小乔]]·标国竞单&lt;&lt;slash&gt;&gt;//[[大乔&amp;小乔]]//&lt;&lt;slash&gt;&gt;[[国SP小乔]]) ''名士''([[孔融]]·国) ''无言②''([[YJ徐庶]]) ''仁心''([[曹冲]]) ''骄矜''([[孙鲁班]]) ''竭缘②''([[灵雎]]) ''仇海''([[孙皓]]) ''释衅''([[孙茹]]) __''誓仇''__([[☆SP刘备]]) ''愤勇②''([[☆SP夏侯惇]]) ''水泳''([[叶诗文]]) ''古锭刀''([[古锭刀]]·标) ''寒冰剑''([[寒冰剑]]·标国竞单) ''白银狮子①''([[白银狮子]]·标国) ''护心镜''([[护心镜]]·国) ''太平要术①''([[太平要术]]·国) ''藤甲②''([[藤甲]]·标国)|
-|!造成伤害后|''忘隙''([[李典]]·标国) ''狂骨''([[魏延]]·标国单) ''烈刃''([[祝融]]·标国) ''潜心''([[徐庶]]·标) ''利驭''([[吕布]]·标) ''暴虐''([[董卓]]·标) ''狂斧''([[潘凤]]·国/[[SP潘凤]]) ''趫猛''([[公孙瓒]]·标) ''狂暴②''([[神吕布]]/[[SP神吕布]]) ''破军''([[YJ徐盛]]) __''父魂''__([[关兴&amp;张苞]]) ''布施''([[张鲁]]) ''三尖两刃刀''([[三尖两刃刀]]·国)|
+|!造成伤害后|''忘隙''([[李典]]·标国) ''狂骨''([[魏延]]·标国单) ''烈刃''([[祝融]]·标国) ''潜心''([[徐庶]]·标) ''利驭''([[吕布]]·标) ''暴虐''([[董卓]]·标) ''狂斧''([[潘凤]]·国/[[SP潘凤]]) ''趫猛''([[公孙瓒]]·标) ''狂暴②''([[神吕布]]/[[SP神吕布]]) ''破军''([[YJ徐盛]]) __''父魂''__([[关兴&amp;张苞]]) ''三尖两刃刀''([[三尖两刃刀]]·国)|
 |!受到伤害后|''奸雄''([[曹操]]·标国竞单) ''反馈''([[司马懿]]·标国竞单) ''刚烈''([[夏侯惇]]·标国竞单) ''遗计''([[郭嘉]]·标国竞单) ''节命''([[荀彧]]·标国) ''放逐''([[曹丕]]·标国) ''资粮''([[邓艾]]·国) ''忘隙''([[李典]]·标国) ''横江''([[臧霸]]·国) ''新生''([[左慈]]·标) ''千幻①''([[于吉]]·国) ''悲歌''([[蔡文姬]]·标国/[[SP蔡文姬]]) ''武魂①''([[神关羽]]) ''归心''([[神曹操]]) ''狂暴②''([[神吕布]]/[[SP神吕布]]) ''忍戒①''([[神司马懿]]) ''极略[放逐]''(__[[神司马懿]]__) ''智迟''([[陈宫]]) ''恩怨②''([[法正]]) ''权计①''([[钟会]]) ''恃勇''([[YJ华雄]]) ''智愚''([[荀攸]]) ''称象''([[曹冲]]) ''御策''([[满宠]]) ''夺刀''([[潘璋&amp;马忠]]) ''矢北''([[沮授]]) ''恢拓''([[曹睿]]) ''鸡肋''([[杨修]]) ''引兵②''([[祖茂]]) ''贲育''([[程昱]]) ''布施''([[张鲁]]) __''孝廉''__([[台YJ曹昂]]) ''愤勇①''([[☆SP夏侯惇]])|
 |!伤害结算结束时||
 |!伤害结算结束后|''酒诗②''([[曹植]])|
@@ -15102,23 +15112,23 @@ button.button:hover {
 |!失去体力前|''黄巾天兵符②''([[君张角]])|
 |!失去体力后|''诈降''([[黄盖]]·标)|</pre>
 </div>
-<div created="20150630064343491" creator="gltjk" modified="20150927155115412" modifier="gltjk" tags="流程" title="使用事件流程">
+<div created="20150630064343491" creator="gltjk" modified="20151027055857611" modifier="gltjk" tags="流程" title="使用事件流程">
 <pre>|!时机|!触发事件|
 |!(需要使用时)|&lt;&lt;rd 杀：&gt;&gt;''激将''([[刘备]]·标/[[刘禅]]·__标国__) ''陷嗣②''([[刘封]]) ''勤王''([[刘谌]]) ''振赡''([[全琮]]) ''活墨''([[钟繇]]) __''刺槐''__([[界SP马超]]) ''傲才''([[诸葛恪]]) ''方天画戟''([[方天画戟]]·国)&lt;br&gt;&lt;&lt;rd 闪：&gt;&gt;''护驾''([[曹操]]·标) ''饰非''([[郭图&amp;逢纪]]) ''振赡''([[全琮]]) ''活墨''([[钟繇]]) ''傲才''([[诸葛恪]])&lt;br&gt;&lt;&lt;rd 桃：&gt;&gt;''振赡''([[全琮]]) ''活墨''([[钟繇]]) ''傲才''([[诸葛恪]])&lt;br&gt;&lt;&lt;rd 酒：&gt;&gt;''酒诗①''([[曹植]]) ''振赡''([[全琮]]) ''活墨''([[钟繇]]) ''傲才''([[诸葛恪]])|
 |!使用前|&lt;&lt;rd 杀：&gt;&gt;''疠火①''([[程普]]) ''符箓②''([[黄巾雷使]]) ''朱雀羽扇②''([[朱雀羽扇]]·标国)|
 |!声明使用时|&lt;&lt;rd 杀：&gt;&gt;''武圣''([[关羽]]·标国竞单/[[五虎将大旗]]/__[[关兴&amp;张苞]]__/[[SP关羽]]/[[界SP关羽]]) ''龙胆''([[赵云]]·标国竞单/[[五虎将大旗]]/[[☆SP赵云]]) ''蛊惑''([[于吉]]·标) ''龙魂''([[神赵云]]) ''黄巾天兵符③''([[君张角]]) ''疠火①''([[程普]]) ''父魂''([[关兴&amp;张苞]]) ''符箓①''([[黄巾雷使]]) ''赤心''([[界SP赵云]]) __''战意''__([[朱灵]]) __''默识''__([[RE蔡文姬]]) ''朱雀羽扇②''([[朱雀羽扇]]·标国)&lt;br&gt;&lt;&lt;rd 闪：&gt;&gt;''倾国''([[甄姬]]·标国竞单/[[SP甄姬]]) ''龙胆''([[赵云]]·标国竞单/[[五虎将大旗]]/[[☆SP赵云]]) ''蛊惑''([[于吉]]·标) ''龙魂''([[神赵云]]) ''赤心''([[界SP赵云]]) __''战意''__([[朱灵]]) ''节钺②''([[RE于禁]]) __''默识''__([[RE蔡文姬]])&lt;br&gt;&lt;&lt;rd 桃：&gt;&gt;''急救''([[华佗]]·标国竞单) ''蛊惑''([[于吉]]·标) ''龙魂''([[神赵云]]) __''战意''__([[朱灵]]) __''默识''__([[RE蔡文姬]])&lt;br&gt;&lt;&lt;rd 酒：&gt;&gt;''酒池''([[董卓]]·标) ''蛊惑''([[于吉]]·标) __''战意''__([[朱灵]]) __''默识''__([[RE蔡文姬]])&lt;br&gt;&lt;&lt;rd 锦囊牌：&gt;&gt;''断粮①''([[徐晃]]·标国竞) ''断粮''([[徐晃]]·单) ''急袭''([[邓艾]]·__标__) ''急袭②''([[邓艾]]·国) ''连环''([[庞统]]·标国) ''火计''([[卧龙诸葛亮]]·标国) ''看破''([[卧龙诸葛亮]]·标国) ''奇袭''([[甘宁]]·标国竞单) __''国色''__([[大乔]]·标) ''国色''([[大乔]]·国竞单) __''度势''__([[陆逊]]·国) ''乱击''([[袁绍]]·标国) __''双雄''__([[颜良&amp;文丑]]·标国单) ''蛊惑''([[于吉]]·标) ''龙魂''([[神赵云]]) __''奇策''__([[荀攸]]) ''战绝''([[刘谌]]) ''节钺②''([[RE于禁]]) __''默识''__([[RE蔡文姬]]) ''严整''([[☆SP曹仁]])|
-|!使用时|''涯角''([[赵云]]·标) ''明哲''([[诸葛瑾]]·竞/[[SP诸葛瑾]]) ''渐营''([[沮授]]) __''强识''__([[张松]]) ''奋音''([[留赞]]) ''银月枪''([[银月枪]])&lt;br&gt;&lt;&lt;rd 杀：&gt;&gt;''仁望''([[刘备]]·单) __''龙胆''__([[五虎将大旗]]) ''龙吟''([[关平]]) ''设伏②''([[程昱]]) __''残蚀''__([[孙皓]]) ''青龙偃月刀''([[青龙偃月刀]]·国)&lt;br&gt;&lt;&lt;rd 闪：&gt;&gt;''雷击''([[张角]]·标国单) __''龙胆''__([[五虎将大旗]]) ''司敌①''([[曹真]]) ''设伏②''([[程昱]]) __''残蚀''__([[孙皓]])&lt;br&gt;&lt;&lt;rd 桃：&gt;&gt;''设伏②''([[程昱]]) __''残蚀''__([[孙皓]])&lt;br&gt;&lt;&lt;rd 酒：&gt;&gt;''设伏②''([[程昱]]) __''残蚀''__([[孙皓]])&lt;br&gt;&lt;&lt;rd 锦囊牌：&gt;&gt;''仁望''([[刘备]]·单) ''集智''([[黄月英]]·标国竞单) ''无谋''([[神吕布]]/[[SP神吕布]]) ''极略[集智]''(__[[神司马懿]]__) ''设伏②''([[程昱]]) __''残蚀''__([[孙皓]])|
-|!指定目标时|&lt;&lt;rd 杀：&gt;&gt;''谮毁''([[孙鲁班]]) ''替巾''([[台YJ祖茂]])&lt;br&gt;&lt;&lt;rd 锦囊牌：&gt;&gt;''奋威''([[甘宁]]·标) ''谮毁''([[孙鲁班]])|
-|!成为目标时|&lt;&lt;rd 杀：&gt;&gt;''空城''([[诸葛亮]]·国) ''享乐''([[刘禅]]·标国) ''流离''([[大乔]]·标国竞&lt;&lt;slash&gt;&gt;//[[大乔&amp;小乔]]//) ''千幻②''([[于吉]]·国) ''求援''([[伏皇后]]) ''天命''([[刘协]]) ''镇卫''([[SP文聘]]) ''安娴②''([[☆SP大乔]]) ''明光铠①''([[明光铠]]·国)&lt;br&gt;&lt;&lt;rd 桃：&gt;&gt;''千幻②''([[于吉]]·国)&lt;br&gt;&lt;&lt;rd 酒：&gt;&gt;''千幻②''([[于吉]]·国)&lt;br&gt;&lt;&lt;rd 锦囊牌：&gt;&gt;''空城''([[诸葛亮]]·国) ''谦逊''([[陆逊]]·国) ''帷幕''([[贾诩]]·国) ''千幻②''([[于吉]]·国) ''明光铠①''([[明光铠]]·国)|
-|!指定目标后|''讨袭''([[曹休]]) ''佐定''([[钟繇]])&lt;br&gt;&lt;&lt;rd 杀：&gt;&gt;''铁骑''([[马超]]·标国竞单/[[五虎将大旗]]/[[SP马超]]) ''烈弓''([[黄忠]]·标国单) ''激昂''([[孙策]]·标国竞单&lt;&lt;slash&gt;&gt;//[[文/武|☆SP吕蒙]]//) ''鸟翔''([[蒋钦]]·国) ''无双①''([[吕布]]·标国竞单/__[[神吕布]]__/[[虎牢关神吕布]]/__[[SP神吕布]]__) ''肉林''([[董卓]]·标) ''锋矢''([[张任]]·国) ''咆哮②''([[五虎将大旗]]) ''烈弓①''([[五虎将大旗]]) ''谋溃''([[伏完]]) ''凤魄''([[马云騄]]) __''战意''__([[朱灵]]) ''破军''([[RE徐盛]]) ''征服''([[凯撒]]) ''冲阵''([[☆SP赵云]]) ''雌雄双股剑''([[雌雄双股剑]]·标国竞) ''飞龙夺凤①''([[飞龙夺凤]]·国) ''青釭剑''([[青釭剑]]·标国竞单)&lt;br&gt;&lt;&lt;rd 闪：&gt;&gt;''冲阵''([[☆SP赵云]])&lt;br&gt;&lt;&lt;rd 锦囊牌：&gt;&gt;''祸首②''([[孟获]]·标国) ''激昂''([[孙策]]·标国竞单&lt;&lt;slash&gt;&gt;//[[文/武|☆SP吕蒙]]//) ''无双②''([[吕布]]·标国竞单/__[[神吕布]]__/[[虎牢关神吕布]]/__[[SP神吕布]]__) ''凤魄''([[马云騄]])|
-|!成为目标后|__''协穆''__([[马良]])&lt;br&gt;&lt;&lt;rd 杀：&gt;&gt;''婉容''([[大乔]]·单) ''激昂''([[孙策]]·标国竞单) ''疑城''([[徐盛]]·国) ''肉林''([[董卓]]·标) ''贞烈''([[王异]]) ''慷忾''([[曹昂]]) ''孝廉''([[台YJ曹昂]])&lt;br&gt;&lt;&lt;rd 锦囊牌：&gt;&gt;''激昂''([[孙策]]·标国竞单) ''无双②''([[吕布]]·标国竞单/__[[神吕布]]__/[[虎牢关神吕布]]/__[[SP神吕布]]__) ''贞烈''([[王异]]) ''啖酪''([[杨修]])|
+|!使用时|''涯角''([[赵云]]·标) ''明哲''([[诸葛瑾]]·竞/[[SP诸葛瑾]]) ''渐营''([[沮授]]) ''奔袭①''([[吴懿]]) __''强识''__([[张松]]) ''奋音''([[留赞]]) ''银月枪''([[银月枪]])&lt;br&gt;&lt;&lt;rd 杀：&gt;&gt;''仁望''([[刘备]]·单) __''龙胆''__([[五虎将大旗]]) ''龙吟''([[关平]]) ''设伏②''([[程昱]]) __''残蚀''__([[孙皓]]) ''青龙偃月刀''([[青龙偃月刀]]·国)&lt;br&gt;&lt;&lt;rd 闪：&gt;&gt;''雷击''([[张角]]·标国单) __''龙胆''__([[五虎将大旗]]) ''司敌①''([[曹真]]) ''设伏②''([[程昱]]) __''残蚀''__([[孙皓]])&lt;br&gt;&lt;&lt;rd 桃：&gt;&gt;''设伏②''([[程昱]]) __''残蚀''__([[孙皓]])&lt;br&gt;&lt;&lt;rd 酒：&gt;&gt;''设伏②''([[程昱]]) __''残蚀''__([[孙皓]])&lt;br&gt;&lt;&lt;rd 锦囊牌：&gt;&gt;''仁望''([[刘备]]·单) ''集智''([[黄月英]]·标国竞单) ''无谋''([[神吕布]]/[[SP神吕布]]) ''极略[集智]''(__[[神司马懿]]__) ''设伏②''([[程昱]]) __''残蚀''__([[孙皓]])|
+|!指定目标时|&lt;&lt;rd 杀：&gt;&gt;''谮毁''([[孙鲁班]]) ''替巾''([[台YJ祖茂]])&lt;br&gt;&lt;&lt;rd 锦囊牌：&gt;&gt;''谮毁''([[孙鲁班]])|
+|!成为目标时|&lt;&lt;rd 杀：&gt;&gt;''空城''([[诸葛亮]]·国) ''享乐''([[刘禅]]·标国) ''流离''([[大乔]]·标国竞&lt;&lt;slash&gt;&gt;//[[大乔&amp;小乔]]//) ''千幻②''([[于吉]]·国) ''求援''([[伏皇后]]) ''镇卫''([[SP文聘]]) ''安娴②''([[☆SP大乔]]) ''明光铠①''([[明光铠]]·国)&lt;br&gt;&lt;&lt;rd 桃：&gt;&gt;''千幻②''([[于吉]]·国)&lt;br&gt;&lt;&lt;rd 酒：&gt;&gt;''千幻②''([[于吉]]·国)&lt;br&gt;&lt;&lt;rd 锦囊牌：&gt;&gt;''空城''([[诸葛亮]]·国) ''谦逊''([[陆逊]]·国) ''帷幕''([[贾诩]]·国) ''千幻②''([[于吉]]·国) ''明光铠①''([[明光铠]]·国)|
+|!指定目标后|''讨袭''([[曹休]]) ''佐定''([[钟繇]])&lt;br&gt;&lt;&lt;rd 杀：&gt;&gt;''铁骑''([[马超]]·标国竞单/[[五虎将大旗]]/[[SP马超]]) ''烈弓''([[黄忠]]·标国单) ''激昂''([[孙策]]·标国竞单&lt;&lt;slash&gt;&gt;//[[文/武|☆SP吕蒙]]//) ''鸟翔''([[蒋钦]]·国) ''无双①''([[吕布]]·标国竞单/__[[神吕布]]__/[[虎牢关神吕布]]/__[[SP神吕布]]__) ''肉林''([[董卓]]·标) ''锋矢''([[张任]]·国) ''咆哮②''([[五虎将大旗]]) ''烈弓①''([[五虎将大旗]]) ''谋溃''([[伏完]]) ''凤魄''([[马云騄]]) __''战意''__([[朱灵]]) ''破军''([[RE徐盛]]) ''征服''([[凯撒]]) ''冲阵''([[☆SP赵云]]) ''雌雄双股剑''([[雌雄双股剑]]·标国竞) ''飞龙夺凤①''([[飞龙夺凤]]·国) ''青釭剑''([[青釭剑]]·标国竞单)&lt;br&gt;&lt;&lt;rd 闪：&gt;&gt;''冲阵''([[☆SP赵云]])&lt;br&gt;&lt;&lt;rd 锦囊牌：&gt;&gt;''奋威''([[甘宁]]·标) ''祸首②''([[孟获]]·标国) ''激昂''([[孙策]]·标国竞单&lt;&lt;slash&gt;&gt;//[[文/武|☆SP吕蒙]]//) ''无双②''([[吕布]]·标国竞单/__[[神吕布]]__/[[虎牢关神吕布]]/__[[SP神吕布]]__) ''凤魄''([[马云騄]])|
+|!成为目标后|__''协穆''__([[马良]])&lt;br&gt;&lt;&lt;rd 杀：&gt;&gt;''婉容''([[大乔]]·单) ''激昂''([[孙策]]·标国竞单) ''疑城''([[徐盛]]·国) ''肉林''([[董卓]]·标) ''贞烈''([[王异]]) ''天命''([[刘协]]) ''慷忾''([[曹昂]]) ''孝廉''([[台YJ曹昂]])&lt;br&gt;&lt;&lt;rd 锦囊牌：&gt;&gt;''激昂''([[孙策]]·标国竞单) ''无双②''([[吕布]]·标国竞单/__[[神吕布]]__/[[虎牢关神吕布]]/__[[SP神吕布]]__) ''贞烈''([[王异]]) ''啖酪''([[杨修]])|
 |!使用结算开始时||
 |!(被抵消时)|&lt;&lt;rd 杀：&gt;&gt;''猛进''([[庞德]]·标国竞单/[[SP庞德]]) ''忠勇''([[周仓]]) ''虎啸''([[关银屏]]) __''谋溃''__([[伏完]]) ''贯石斧''([[贯石斧]]·标国竞单) ''青龙偃月刀''([[青龙偃月刀]]·标竞) __''方天画戟''__([[方天画戟]]·国)|
 |!生效前||
 |!生效时|&lt;&lt;rd 锦囊牌：&gt;&gt;''谦逊''([[陆逊]]·标)|
 |!生效后||
 |!使用结算结束时||
-|!使用结算结束后|''奔袭①''([[吴懿]])&lt;br&gt;&lt;&lt;rd 杀：&gt;&gt;__''疠火①''__([[程普]]) __''替巾''__([[台YJ祖茂]])&lt;br&gt;&lt;&lt;rd 锦囊牌：&gt;&gt;__''战绝''__([[刘谌]])|
+|!使用结算结束后|&lt;&lt;rd 杀：&gt;&gt;__''疠火①''__([[程普]]) __''替巾''__([[台YJ祖茂]])&lt;br&gt;&lt;&lt;rd 锦囊牌：&gt;&gt;''巨象②''([[祝融]]·标国) __''战绝''__([[刘谌]])|
 
 &gt;◆等价时机：
 &gt;&gt;&lt;&lt;red (使用的牌)结算开始时&gt;&gt;：(此牌的)使用结算开始时
@@ -15134,9 +15144,9 @@ button.button:hover {
 
 &gt;◆对于在使用结算中的时机触发的事件，其中提到的“目标”默认指此使用结算的目标，“此牌”默认指对此目标结算的此牌。</pre>
 </div>
-<div created="20150621082143172" creator="gltjk" modified="20150625075822432" modifier="gltjk" tags="群势力武将 男性武将 OL武将" title="士燮">
+<div created="20150621082143172" creator="gltjk" modified="20151027150009346" modifier="gltjk" tags="群势力武将 男性武将 OL武将" title="士燮">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|
-| OL 00? | 群 | [[士燮]] | ？？？ | 男 | 3 |避乱、礼下|
+| OL 00? | 群 | [[士燮]] | 雄长百越 | 男 | 3 |避乱、礼下|
 ---
 ''避乱''——摸牌阶段开始时，你可以放弃摸牌，若如此做，你于下回合开始之前拥有“隅”标记〈其他角色到你距离+X（X为势力数）〉。
 
@@ -15146,7 +15156,7 @@ button.button:hover {
 <pre>&lt;&lt;tabs &quot;[tag[手机OL武将]]&quot; &quot;孙茹&quot;&gt;&gt;
 </pre>
 </div>
-<div color="#ffb0b0" created="20141010211212435" creator="gltjk" list="刘备 关羽 张飞 诸葛亮 赵云 马超 黄月英 黄忠 魏延 庞统 卧龙诸葛亮 姜维 刘禅 孟获 祝融 甘夫人 徐庶 蒋琬&amp;费祎 马岱 糜夫人 君刘备 法正 马谡 YJ徐庶 关兴&amp;张苞 廖化 YJ马岱 关平 简雍 刘封 吴懿 张松 周仓 刘谌 YJ夏侯氏 张嶷 SP孙尚香 关银屏 夏侯霸 SP夏侯氏 星彩 马良 SP甘夫人 界SP孙尚香 李丰 RE马谡 台YJ夏侯霸 ☆SP张飞 ☆SP刘备" modified="20150716005828557" modifier="gltjk" tags="武将速览·势力" title="蜀势力武将">
+<div color="#ffb0b0" created="20141010211212435" creator="gltjk" list="刘备 关羽 张飞 诸葛亮 赵云 马超 黄月英 黄忠 魏延 庞统 卧龙诸葛亮 姜维 刘禅 孟获 祝融 甘夫人 徐庶 蒋琬&amp;费祎 马岱 糜夫人 君刘备 法正 马谡 YJ徐庶 关兴&amp;张苞 廖化 YJ马岱 关平 简雍 刘封 吴懿 张松 周仓 刘谌 YJ夏侯氏 张嶷 SP孙尚香 关银屏 夏侯霸 SP夏侯氏 星彩 马良 SP甘夫人 界SP孙尚香 李丰 RE马谡 RE马岱 台YJ夏侯霸 ☆SP张飞 ☆SP刘备" modified="20151027015329483" modifier="gltjk" tags="武将速览·势力" title="蜀势力武将">
 <pre>&lt;&lt;tabs &quot;[tag[蜀势力武将]]&quot; &quot;刘备&quot;&gt;&gt;</pre>
 </div>
 <div created="20141014084414654" creator="gltjk" modified="20150216150320337" modifier="gltjk" tags="1v1游戏牌 国战游戏牌 锦囊牌·非延时" title="水淹七军">
@@ -15241,7 +15251,7 @@ button.button:hover {
 
 （''英魂''）——（参见[[孙坚]]）</pre>
 </div>
-<div created="20150216051405677" creator="gltjk" modified="20150619060943772" modifier="gltjk" tags="吴势力武将 男性武将 OL武将" title="孙皓">
+<div created="20150216051405677" creator="gltjk" modified="20151027142639983" modifier="gltjk" tags="吴势力武将 男性武将 OL武将" title="孙皓">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|
 | OL 005 | 吴 | [[孙皓]] | 时日曷丧 | 男 | 5 |残蚀、仇海、归命|
 ---
@@ -15249,7 +15259,7 @@ button.button:hover {
 
 ''仇海''——''锁定技''。当你受到伤害时，若你没有手牌，你令伤害值+1。
 
-''归命''——''主公技''，''锁定技''。其他吴势力角色于你的回合内视为已受伤。</pre>
+''归命''——''主公技''，''锁定技''。其他未受伤的吴势力角色于你的回合内视为已受伤。</pre>
 </div>
 <div created="20141010161852897" creator="gltjk" modified="20150701084830078" modifier="gltjk" tags="3v3武将 国战标准版武将 1v1武将 神话再临·林武将 吴势力武将 男性武将" title="孙坚">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|
@@ -15389,13 +15399,13 @@ button.button:hover {
 !!国战 
 ''锁定技''。①当你受到属性伤害时，你防止此伤害。②与你势力相同的角色的手牌上限+X（X为你的势力的角色数）。③当你失去装备区里的【太平要术】后，你失去1点体力，然后摸两张牌。</pre>
 </div>
-<div created="20141010161727034" creator="gltjk" modified="20141015083329885" modifier="gltjk" tags="国战标准版武将 男性武将 吴势力武将 神话再临·火武将" title="太史慈">
+<div created="20141010161727034" creator="gltjk" modified="20151027060411613" modifier="gltjk" tags="国战标准版武将 男性武将 吴势力武将 神话再临·火武将" title="太史慈">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|
 | WU 012 | 吴 | [[太史慈]] | 笃烈之士 | 男 | 4 |天义|
 | G.WU 012 | 吴 | [[太史慈]] | 笃烈之士 | 男 | 2 |天义|
 ---
 !!标准 &amp; 国战
-''天义''——出牌阶段限一次，你可以拼点：当你赢后，你于此回合内使用【杀】的额外次数上限+1且使用【杀】无距离限制且使用【杀】的额外目标数上限+1；当你没赢后，你于此回合内不能使用【杀】。</pre>
+''天义''——出牌阶段限一次，你可以拼点。当你赢后：此阶段限一次，你可以使用【杀】；你于此回合内使用【杀】无距离限制，且你于此回合内使用【杀】的额外目标数上限+1。当你没赢后，你于此回合内不能使用【杀】。</pre>
 </div>
 <div created="20141014022041948" creator="gltjk" modified="20150216150158697" modifier="gltjk" tags="基本牌 标准游戏牌 国战游戏牌 1v1游戏牌 3v3游戏牌" title="桃">
 <pre>|!类别|!子类|!名称|!属性|!所属包|!小计|!花色|!总计|!模式|
@@ -15686,13 +15696,13 @@ button.button:hover {
 !!3v3
 出牌阶段，对你使用。目标摸X张牌（若对方角色不多于己方，X为2，否则X为3）。</pre>
 </div>
-<div created="20141011073803542" creator="gltjk" modified="20141011073932365" modifier="gltjk" tags="女性武将 吴势力武将 一将成名武将" title="吴国太">
+<div created="20141011073803542" creator="gltjk" modified="20151027020316108" modifier="gltjk" tags="女性武将 吴势力武将 一将成名武将" title="吴国太">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|
 | YJ 007 | 吴 | [[吴国太]] | 武烈皇后 | 女 | 3 |甘露、补益|
 ---
 ''甘露''——出牌阶段限一次，你可以选择两名装备区里的牌数量之差不大于X的角色（X为你已损失的体力值），令这些角色交换装备区里的牌。
 
-''补益''——当一名角色进入濒死状态时，你可以展示该角色的一张手牌，若此牌不为基本牌，该角色先弃置之再回复1点体力。</pre>
+''补益''——当一名角色进入濒死状态时，你可以展示该角色的一张手牌，若此牌不为基本牌，其弃置之，若如此做，其回复1点体力。</pre>
 </div>
 <div created="20141014075747875" creator="gltjk" modified="20141027145525760" modifier="gltjk" tags="国战游戏牌 装备牌·武器" title="吴六剑">
 <pre>|!类别|!子类|!名称|!属性|!所属包|!小计|!花色|!总计|!模式|
@@ -15703,14 +15713,14 @@ button.button:hover {
 
 （攻击范围：2）</pre>
 </div>
-<div color="#b0ffb0" created="20141010211228665" creator="gltjk" list="孙权 甘宁 吕蒙 黄盖 周瑜 大乔 陆逊 孙尚香 孙坚 孙策 小乔 太史慈 周泰 鲁肃 张昭&amp;张纮 丁奉 蒋钦 诸葛瑾 徐盛 陈武&amp;董袭 凌统 吴国太 YJ徐盛 步练师 程普 韩当 潘璋&amp;马忠 虞翻 朱然 顾雍 孙鲁班 朱桓 全琮 孙休 朱治 大乔&amp;小乔 SP诸葛瑾 祖茂 SP丁奉 孙鲁育 孙皓 国SP周瑜 国SP小乔 诸葛恪 孙茹 凌操 留赞 台YJ祖茂 ☆SP吕蒙 ☆SP大乔 叶诗文 孙杨" modified="20150626020342688" modifier="gltjk" tags="武将速览·势力" title="吴势力武将">
+<div color="#b0ffb0" created="20141010211228665" creator="gltjk" list="孙权 甘宁 吕蒙 黄盖 周瑜 大乔 陆逊 孙尚香 孙坚 孙策 小乔 太史慈 周泰 鲁肃 张昭&amp;张纮 丁奉 蒋钦 诸葛瑾 徐盛 陈武&amp;董袭 凌统 吴国太 YJ徐盛 步练师 程普 韩当 潘璋&amp;马忠 虞翻 朱然 顾雍 孙鲁班 朱桓 全琮 孙休 朱治 大乔&amp;小乔 SP诸葛瑾 祖茂 SP丁奉 孙鲁育 孙皓 国SP周瑜 国SP小乔 诸葛恪 孙茹 凌操 留赞 RE步练师 台YJ祖茂 ☆SP吕蒙 ☆SP大乔 叶诗文 孙杨" modified="20151027015158385" modifier="gltjk" tags="武将速览·势力" title="吴势力武将">
 <pre>&lt;&lt;tabs &quot;[tag[吴势力武将]]&quot; &quot;孙权&quot;&gt;&gt;</pre>
 </div>
-<div created="20141011124813054" creator="gltjk" modified="20150203142554377" modifier="gltjk" tags="蜀势力武将 男性武将 一将成名2014武将" title="吴懿">
+<div created="20141011124813054" creator="gltjk" modified="20151027015512030" modifier="gltjk" tags="蜀势力武将 男性武将 一将成名2014武将" title="吴懿">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|
 | YJ 308 | 蜀 | [[吴懿]] | 建兴鞍辔 | 男 | 4 |奔袭|
 ---
-''奔袭''——''锁定技''。①当你于回合内使用的牌结算结束后，你到其他角色的距离于此回合内-1。②若你为当前回合角色且你到每名其他角色的距离均为1，你无视其他角色的防具，且你使用【杀】的额外目标数上限+1。</pre>
+''奔袭''——''锁定技''。①当你于回合内使用牌时，你令你到其他角色的距离于此回合内-1。②若你为当前回合角色且你到每名其他角色的距离均为1，你无视其他角色的防具，且你使用【杀】的额外目标数上限+1。</pre>
 </div>
 <div created="20141014045819631" creator="gltjk" modified="20150216150456984" modifier="gltjk" tags="标准游戏牌 国战游戏牌 3v3游戏牌 锦囊牌·非延时" title="五谷丰登">
 <pre>|!类别|!子类|!名称|!属性|!所属包|!小计|!花色|!总计|!模式|
@@ -15812,12 +15822,10 @@ button.button:hover {
 |&gt;|!J| 田丰 |&lt;&lt;py &quot;Tian2 Feng1&quot;&gt;&gt;| 祖茂 |&lt;&lt;py &quot;Zu3 Mao4&quot;&gt;&gt;|
 | 纪灵 |&lt;&lt;py &quot;Ji3 Ling2&quot;&gt;&gt;||| 左慈 |&lt;&lt;py &quot;Zuo3 Ci2&quot;&gt;&gt;|</pre>
 </div>
-<div created="20150901085332144" creator="gltjk" modified="20150927120409156" modifier="gltjk" tags="武将" title="武将融合">
+<div created="20150901085332144" creator="gltjk" modified="20151027142932847" modifier="gltjk" tags="武将" title="武将融合">
 <pre>本条目列举《三国杀Online》里对新将与旧将进行技能融合而产生的武将，并只显示与新将不同的技能。
 
 |!武将|!技能|!技能描述|
-| [[刘备]]·标 | 仁德 |出牌阶段，你可以将至少一张手牌交给一名角色（若如此做，其于此阶段内不是你发动“仁德”的合法目标），若你于此阶段内以此法交给其他角色的手牌不少于两张，你回复1点体力（每阶段限一次）。|
-| [[张角]]·标 | 雷击 |当你使用或打出【闪】时，你可以选择一名其他角色，令该角色判定，若结果为：&lt;&lt;spade&gt;&gt;，你对其造成2点雷属性伤害；&lt;&lt;club&gt;&gt;，你对其造成1点雷属性伤害，若如此做，当你造成此伤害时，你回复1点体力。|
 | [[王异]] | 秘计 |结束阶段开始时，若你已受伤，你可以摸一至X张牌（X为你已损失的体力值），然后你可以将等量的手牌同时交给至少一名角色。|
 | [[李儒]] | 绝策 |结束阶段开始时，你可以对一名没有手牌的其他角色造成1点伤害。|</pre>
 </div>
@@ -15836,12 +15844,23 @@ button.button:hover {
 <div created="20141011130311615" creator="gltjk" modified="20141011131318774" modifier="gltjk" title="武将图片">
 <pre>&lt;&lt;gpic WEI001 100&gt;&gt;&lt;&lt;gpic WEI002 100&gt;&gt;&lt;&lt;gpic WEI003 100&gt;&gt;&lt;&lt;gpic WEI002 100&gt;&gt;&lt;&lt;gpic WEI004 100&gt;&gt;&lt;&lt;gpic WEI005 100&gt;&gt;&lt;&lt;gpic WEI006 100&gt;&gt;</pre>
 </div>
-<div created="20141015032834785" creator="gltjk" modified="20150702062614380" modifier="gltjk" tags="武将" title="武将修订">
+<div created="20141015032834785" creator="gltjk" modified="20151027142456060" modifier="gltjk" tags="武将" title="武将修订">
 <pre>本条目列举自《三国杀·关公邮票珍藏版》发行以来（即启用现行牌面描述系统以来），未使用RE编号修订实际结算的武将。
 
 RE编号修订的武将请参考[[RE武将]]。
 
 |!修订版&lt;br&gt;发行包|!所属包|!名称|!技能|!技能描述|
+| 2015&lt;br&gt;珍藏版 | 2013&lt;br&gt;标准版 | [[刘备]] | 仁德 |出牌阶段限一次，你可以将至少一张手牌同时交给至少一名角色，若你于以此法交给其他角色的手牌不少于两张，你回复1点体力。|
+|~|~|~| 激将 |（没有修订）|
+|~| 2013&lt;br&gt;珍藏版 | [[曹仁]] | 据守 |结束阶段开始时，你可以摸一张牌，然后翻置武将牌。|
+|~|~|~| 解围 |当你翻置武将牌后，你可以摸一张牌，然后你可以使用任意锦囊牌/装备牌，若如此做，你可以弃置场上的一张锦囊牌/装备牌。|
+|~|~| [[祝融]] | 巨象 |当其他角色使用的【南蛮入侵】因结算完毕而置入弃牌堆后，你获取之。|
+|~|~|~| 烈刃 |（没有修订）|
+|~|~| [[周泰]] | 不屈 |（没有修订）|
+|~|~|~| 奋激 |当一名角色因获取或另一名角色的弃置而失去手牌后，你可以失去1点体力，令该失去手牌的角色摸两张牌。|
+|~|~| [[张角]] | 雷击 |当你使用或打出【闪】时，你可以选择一名其他角色，令该角色判定，若结果为黑色，你对其造成1点雷属性伤害，若如此做，当你造成此伤害时，你回复1点体力。|
+|~|~|~| 鬼道 |（没有修订）|
+|~|~|~| 黄天 |（没有修订）|
 | 3v3&lt;br&gt;2014 | 3v3 | [[赵云]] | 龙胆 |（没有修订）|
 |~|~|~| 救主 |当己方其他角色处于濒死状态时，若你的体力值不等于1，你可以弃置一张牌，失去1点体力，然后该角色回复1点体力。|
 |~|~| [[貂蝉]] | 离间 |出牌阶段限一次，你可以弃置一张牌并选择一名男性角色并选择另一名是该角色使用【决斗】的合法目标的男性角色，令前者视为对后者使用不是【无懈可击】的合法目标的【决斗】。|
@@ -15866,7 +15885,7 @@ RE编号修订的武将请参考[[RE武将]]。
 |~|~|~| 度势 |你可以将一张红色手牌当【以逸待劳】使用。|
 |~|~| [[貂蝉]] | 离间 |出牌阶段限一次，你可以弃置一张牌并选择一名其他男性角色并选择另一名是该角色使用【决斗】的合法目标的其他男性角色，令前者视为对后者使用不是【无懈可击】的合法目标的【决斗】。|
 |~|~|~| 闭月 |（没有修订）|
-| 2013&lt;br&gt;标准版 | 标准版 | [[刘备]] | 仁德 |出牌阶段，你可以将至少一张手牌交给一名角色，若你于此阶段内以此法交给其他角色的手牌数量不小于2，你回复1点体力（每阶段限一次）。|
+| 2013&lt;br&gt;标准版 | 标准版 | [[刘备]] | 仁德 |出牌阶段，你可以将至少一张手牌交给一名角色，若你于此阶段内发动“//仁德//”交出的牌数量首次变为不小于2，你回复1点体力。|
 |~|~|~| 激将 |（没有修订）|
 |~|~| [[黄月英]] | 集智 |当你使用非延时类锦囊牌时，你可以摸一张牌。|
 |~|~|~| 奇才 |''锁定技''。你使用锦囊牌无距离限制。|
@@ -16046,13 +16065,13 @@ RE编号修订的武将请参考[[RE武将]]。
 !!国战
 出牌阶段，对大势力的你使用。目标结束出牌阶段，若如此做，其回合结束时，其可以弃置一张牌，若如此做，其获得一个额外的回合。</pre>
 </div>
-<div created="20141011135604401" creator="gltjk" modified="20141011135642523" modifier="gltjk" tags="女性武将 蜀势力武将 SP武将" title="星彩">
+<div created="20141011135604401" creator="gltjk" modified="20151027025538117" modifier="gltjk" tags="女性武将 蜀势力武将 SP武将" title="星彩">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|
 | SP 028 | 蜀 | [[星彩]] | 敬哀皇后 | 女 | 3 |甚贤、枪舞|
 ---
 ''甚贤''——当其他角色于你的回合外因弃置而失去基本牌后，你可以摸一张牌。
 
-''枪舞''——出牌阶段限一次，你可以判定，然后于此回合内：你使用点数小于结果的【杀】无距离限制，且你使用点数大于结果的【杀】无次数限制且不计入限制的使用次数。</pre>
+''枪舞''——出牌阶段限一次，你可以判定，然后于此回合内：你使用点数小于结果的【杀】无距离限制，且你使用点数大于结果的【杀】不计入限制的使用次数。</pre>
 </div>
 <div created="20141106085132954" creator="gltjk" modified="20150702062655083" modifier="gltjk" tags="玩点论杀" title="虚实篇武将">
 <pre>!!费诗
@@ -16129,7 +16148,7 @@ RE编号修订的武将请参考[[RE武将]]。
 
 ''军屯''——出牌阶段，你可以重铸装备牌。</pre>
 </div>
-<div created="20141106091036987" creator="gltjk" modified="20150716013901698" modifier="gltjk" tags="玩点论杀" title="虚实篇游戏牌" type="">
+<div created="20141106091036987" creator="gltjk" modified="20151027034319992" modifier="gltjk" tags="玩点论杀" title="虚实篇游戏牌" type="">
 <pre>|!类别|!子类|!名称|!属性|!数量|!分布|!技能|!设计|
 |!基本牌|!| [[杀]] || 2 |&lt;&lt;spade&gt;&gt;(6) &lt;&lt;diamond&gt;&gt;(9)|出牌阶段限一次，对你攻击范围内的一名角色使用。你对目标造成1点伤害。&lt;br&gt;◆毒【杀】造成毒属性伤害。&lt;br&gt;◆若目标因受到你使用毒【杀】造成的伤害而进入濒死状态，其于此濒死结算中不能使用【桃】。| 官方 |
 |~|~|~| 毒 | 4 |&lt;&lt;spade&gt;&gt;(9) &lt;&lt;heart&gt;&gt;(9) &lt;&lt;club&gt;&gt;(4/10)|~| 3D不屈的三好 |
@@ -16151,7 +16170,7 @@ RE编号修订的武将请参考[[RE武将]]。
 |~|~| [[三尖两刃刀]] || 1 |&lt;&lt;club&gt;&gt;(5)|当你使用【杀】对目标造成伤害后，你可以弃置一张手牌并选择其距离为1的一名其他角色，对该角色造成1点伤害。&lt;br&gt;（攻击范围：3）| 官方 |
 |~|~| 发石车 || 1 |&lt;&lt;spade&gt;&gt;(5)|''锁定技''。当你使用【杀】指定一个目标时，你选择你攻击范围内的X名其他角色（X为其距离为1的角色的数量且至多为2），令这些角色成为此【杀】的目标（无距离限制）。&lt;br&gt;（攻击范围：2~7）| sunbob |
 |~|!防具| 护心镜 || 1 |&lt;&lt;heart&gt;&gt;(A)|①当你受到伤害时，你可以防止此伤害，然后弃置装备区里的【护心镜】。②当你失去装备区里的【护心镜】后，你摸一张牌。| 没的 |
-|~|!坐骑| 连弩战车 || 1 |&lt;&lt;spade&gt;&gt;(10)|&lt;&lt;unlock&gt;&gt;''锁定技''。你到其他角色的距离-1。&lt;br&gt;''锁定技''。你于出牌阶段内使用【杀】的额外次数上限+1。&lt;br&gt;◆【连弩战车】与+1坐骑牌在装备区里互斥。| 3D不屈的三好 |
+|~|!坐骑| 连弩战车 || 1 |&lt;&lt;spade&gt;&gt;(10)|&lt;&lt;unlock&gt;&gt;''锁定技''。你到其他角色的距离-1。&lt;br&gt;出牌阶段限一次，你可以使用【杀】。&lt;br&gt;◆【连弩战车】与+1坐骑牌在装备区里互斥。| 3D不屈的三好 |
 |~|~| 南蛮战象 || 1 |&lt;&lt;club&gt;&gt;(K)|&lt;&lt;unlock&gt;&gt;''锁定技''。你到其他角色的距离-1。&lt;br&gt;''锁定技''。①【南蛮入侵】对你无效。②当你成为【万箭齐发】的目标后，你将你执行此【万箭齐发】的效果需打出的【闪】的数量改为2。| ztcl9233 |
 |~|~| 白鹄 || 1 |&lt;&lt;diamond&gt;&gt;(5)|&lt;&lt;unlock&gt;&gt;''锁定技''。其他角色到你的距离+1。| 论杀组 |</pre>
 </div>
@@ -16267,10 +16286,10 @@ RE编号修订的武将请参考[[RE武将]]。
 <div color="#ea3e46" created="20141011161500119" creator="gltjk" list="曹植 陈宫 法正 高顺 凌统 马谡 吴国太 YJ徐盛 YJ徐庶 于禁 张春华 钟会" modified="20141111094611393" modifier="gltjk" tags="标准模式武将" title="一将成名武将">
 <pre>&lt;&lt;tabs &quot;[tag[一将成名武将]]&quot; &quot;曹植&quot;&gt;&gt;</pre>
 </div>
-<div created="20150630064948965" creator="gltjk" modified="20150703095206865" modifier="gltjk" tags="流程" title="移动事件流程">
+<div created="20150630064948965" creator="gltjk" modified="20151027055839844" modifier="gltjk" tags="流程" title="移动事件流程">
 <pre>|!时机|!触发事件|
 |!移动前|&lt;&lt;rd 进入手牌：&gt;&gt;''漫卷''([[☆SP庞统]])&lt;br&gt;&lt;&lt;rd 离开手牌：&gt;&gt;''章武②''([[君刘备]]) ''纵玄''([[虞翻]])&lt;br&gt;&lt;&lt;rd 离开装备区：&gt;&gt;''章武②''([[君刘备]]) ''纵玄''([[虞翻]])|
-|!移动后|&lt;&lt;rd 进入手牌：&gt;&gt;''清俭''([[夏侯惇]]·标) ''恩怨①''([[法正]]) ''伤逝''([[张春华]]) ''谋断②''([[☆SP吕蒙]])&lt;br&gt;&lt;&lt;rd 进入装备区：&gt;&gt;''章武①''([[君刘备]])&lt;br&gt;&lt;&lt;rd 进入弃牌堆：&gt;&gt;''巨象②''([[祝融]]·标国) ''勇决''([[糜夫人]]·__国__)  ''姻礼''([[孙尚香]]·单) ''礼让''([[孔融]]·国) __''趫猛''__([[公孙瓒]]·标) ''章武①''([[君刘备]]) ''落英①''([[曹植]]) ''落英②''([[曹植]]) ''慎断''([[韩浩&amp;史涣]]) __''燕语''__([[SP夏侯氏]]) ''纳蛮''([[马良]])&lt;br&gt;&lt;&lt;rd 进入处理区：&gt;&gt;''影兵''([[张宝]])&lt;br&gt;&lt;&lt;rd 离开手牌：&gt;&gt;''屯田①''([[邓艾]]·标国) ''守成''([[蒋琬&amp;费祎]]·国) ''连营''([[陆逊]]·标单) ''奋激''([[周泰]]·标) ''明哲''([[诸葛瑾]]·竞/[[SP诸葛瑾]]) ''死谏''([[田丰]]·国) ''忍戒②''([[神司马懿]]) ''伤逝''([[张春华]]) ''谋断②''([[☆SP吕蒙]])&lt;br&gt;&lt;&lt;rd 离开装备区：&gt;&gt;''屯田①''([[邓艾]]·标国) ''枭姬''([[孙尚香]]·标国竞单/[[SP孙尚香]]/[[界SP孙尚香]]) ''明哲''([[诸葛瑾]]·竞/[[SP诸葛瑾]]) ''旋风''([[凌统]]) ''白银狮子②''([[白银狮子]]·标国) ''太平要术③''([[太平要术]]·国)&lt;br&gt;&lt;&lt;rd 离开武将牌区：&gt;&gt;''闺秀②''([[糜夫人]]·国)&lt;br&gt;&lt;&lt;rd 离开移出游戏区：&gt;&gt;''义舍②''([[张鲁]])|
+|!移动后|&lt;&lt;rd 进入手牌：&gt;&gt;''清俭''([[夏侯惇]]·标) ''恩怨①''([[法正]]) ''伤逝''([[张春华]]) ''谋断②''([[☆SP吕蒙]])&lt;br&gt;&lt;&lt;rd 进入装备区：&gt;&gt;''章武①''([[君刘备]])&lt;br&gt;&lt;&lt;rd 进入弃牌堆：&gt;&gt;''勇决''([[糜夫人]]·__国__)  ''姻礼''([[孙尚香]]·单) ''礼让''([[孔融]]·国) __''趫猛''__([[公孙瓒]]·标) ''章武①''([[君刘备]]) ''落英①''([[曹植]]) ''落英②''([[曹植]]) ''慎断''([[韩浩&amp;史涣]]) __''燕语''__([[SP夏侯氏]]) ''纳蛮''([[马良]])&lt;br&gt;&lt;&lt;rd 进入处理区：&gt;&gt;''影兵''([[张宝]])&lt;br&gt;&lt;&lt;rd 离开手牌：&gt;&gt;''屯田①''([[邓艾]]·标国) ''守成''([[蒋琬&amp;费祎]]·国) ''连营''([[陆逊]]·标单) ''奋激''([[周泰]]·标) ''明哲''([[诸葛瑾]]·竞/[[SP诸葛瑾]]) ''死谏''([[田丰]]·国) ''忍戒②''([[神司马懿]]) ''伤逝''([[张春华]]) ''谋断②''([[☆SP吕蒙]])&lt;br&gt;&lt;&lt;rd 离开装备区：&gt;&gt;''屯田①''([[邓艾]]·标国) ''枭姬''([[孙尚香]]·标国竞单/[[SP孙尚香]]/[[界SP孙尚香]]) ''明哲''([[诸葛瑾]]·竞/[[SP诸葛瑾]]) ''旋风''([[凌统]]) ''白银狮子②''([[白银狮子]]·标国) ''太平要术③''([[太平要术]]·国)&lt;br&gt;&lt;&lt;rd 离开武将牌区：&gt;&gt;''闺秀②''([[糜夫人]]·国)&lt;br&gt;&lt;&lt;rd 离开移出游戏区：&gt;&gt;''义舍②''([[张鲁]])|
 |!移动结算结束后|__''章武②''__([[君刘备]]) __''漫卷''__([[☆SP庞统]])|
 
 &gt;◆等价时机：
@@ -16502,12 +16521,12 @@ RE编号修订的武将请参考[[RE武将]]。
 !!国战
 出牌阶段，对一名与你势力不同的角色使用。目标摸一张牌，然后你摸三张牌。</pre>
 </div>
-<div created="20141010195745352" creator="gltjk" modified="20141023035024172" modifier="gltjk" tags="魏势力武将 男性武将 君临天下·势武将" title="臧霸">
+<div created="20141010195745352" creator="gltjk" modified="20151027020753111" modifier="gltjk" tags="魏势力武将 男性武将 君临天下·势武将" title="臧霸">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|
 | G.WEI 023 | 魏 | [[臧霸]] | 节度青徐 | 男 | 2 |横江|
 ---
 !!国战
-''横江''——当你受到1点伤害后，你可以令当前回合角色于此回合内手牌上限-1，若你此前于此回合内没有发动过“//横江//”，此回合结束时，若该角色未于弃牌阶段内弃置过牌，你摸一张牌。</pre>
+''横江''——当你受到1点伤害后，你可以令当前回合角色于此回合内手牌上限-1，若你此前于此回合内没有发动过“//横江//”，此回合结束后，若该角色未于弃牌阶段内弃置过牌，你摸一张牌。</pre>
 </div>
 <div created="20141011134842724" creator="gltjk" modified="20150703030850979" modifier="gltjk" tags="男性武将 群势力武将 SP武将" title="张宝">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|
@@ -16552,7 +16571,7 @@ RE编号修订的武将请参考[[RE武将]]。
 !!标准 &amp; 国战
 ''巧变''——你可以弃置一张手牌，跳过除准备阶段和结束阶段外的一个阶段，若你以此法：跳过摸牌阶段，你可以获取一至两名其他角色的各一张手牌；跳过出牌阶段，你可以将一名角色判定区或装备区里的一张牌置入另一名角色的相应区域。</pre>
 </div>
-<div created="20141010171120212" creator="gltjk" modified="20150716010959745" modifier="gltjk" tags="1v1武将 国战标准版武将 男性武将 群势力武将 神话再临·风武将" title="张角">
+<div created="20141010171120212" creator="gltjk" modified="20151027072920884" modifier="gltjk" tags="1v1武将 国战标准版武将 男性武将 群势力武将 神话再临·风武将" title="张角">
 <pre>◇本条目不是[[君张角]]。
 
 |!编号|!势力|!名称|!称号|!性别|!体力|!技能|
@@ -16561,14 +16580,19 @@ RE编号修订的武将请参考[[RE武将]]。
 | D.QUN 010 | 群 | [[张角]] | 天公将军 | 男 | 3 |雷击、鬼道|
 ---
 !!标准
-''雷击''——当你使用或打出【闪】时，你可以选择一名其他角色，令该角色判定，若结果为黑色，你对其造成1点雷属性伤害，若如此做，当你造成此伤害时，你回复1点体力。
+''雷击''——当你使用或打出【闪】时，你可以选择一名其他角色，令该角色判定，若结果为：♠，你对其造成2点雷属性伤害；♣，你回复1点体力，然后对其造成1点雷属性伤害。
 
 ''鬼道''——当判定牌生效前，你可以打出黑色牌替换之。
 
 ''黄天''——''主公技''。其他群势力角色的出牌阶段限一次，该角色可以选择一项：1.将一张【闪】交给你；2.将一张【闪电】交给你。
 
-!!国战 &amp; 1v1
-''雷击''——当你使用或打出【闪】时，你可以令一名角色判定，若结果为&lt;&lt;spade&gt;&gt;，你对该角色造成2点雷属性伤害。
+!!国战
+''雷击''——当你使用或打出【闪】时，你可以令一名其他角色判定，若结果为&lt;&lt;spade&gt;&gt;，你对该角色造成2点雷属性伤害。
+
+''鬼道''——当判定牌生效前，你可以打出黑色牌替换之。
+
+!!1v1
+''雷击''——当你使用或打出【闪】时，你可以令对手判定，若结果为&lt;&lt;spade&gt;&gt;，你对其造成2点伤害。
 
 ''鬼道''——当判定牌生效前，你可以打出黑色牌替换之。</pre>
 </div>
@@ -16588,13 +16612,13 @@ RE编号修订的武将请参考[[RE武将]]。
 !!1v1
 ''突袭''——摸牌阶段，若你的手牌少于对手，你可以少摸一张牌，获取对手的一张手牌。</pre>
 </div>
-<div created="20150621082539868" creator="gltjk" modified="20150703034620570" modifier="gltjk" tags="群势力武将 男性武将 OL武将" title="张鲁">
+<div created="20150621082539868" creator="gltjk" modified="20151027071520924" modifier="gltjk" tags="群势力武将 男性武将 OL武将" title="张鲁">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|
-| OL 00? | 群 | [[张鲁]] | ？？？ | 男 | 3 |义舍、布施、米道|
+| OL 016 | 群 | [[张鲁]] | 政宽教惠 | 男 | 3 |义舍、布施、米道|
 ---
 ''义舍''——①结束阶段开始时，若没有“米”，你可以摸两张牌，然后将两张牌置于武将牌上〔称为“米”〕。②当所有“米”置入其他区域后，你回复1点体力。
 
-''布施''——当你受到或对其他角色造成1点伤害后，受到伤害的角色可以获取一张“米”。
+''布施''——当你受到1点伤害后，或其他角色受到你造成的1点伤害后，受到伤害的角色可以获取一张“米”。
 
 ''米道''——当判定牌生效前，你可以打出一张“米”代替之。</pre>
 </div>
@@ -16615,11 +16639,11 @@ RE编号修订的武将请参考[[RE武将]]。
 
 ''献图''——其他角色的出牌阶段开始时，你可以摸两张牌，然后将两张牌交给该角色，若如此做，此阶段结束时，若其未于此阶段内杀死过角色，你失去1点体力。</pre>
 </div>
-<div created="20150625094809800" creator="gltjk" modified="20150626052549251" modifier="gltjk" tags="蜀势力武将 男性武将 一将成名2015武将" title="张嶷">
+<div created="20150625094809800" creator="gltjk" modified="20151027020339985" modifier="gltjk" tags="蜀势力武将 男性武将 一将成名2015武将" title="张嶷">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|
 | YJ 409 | 蜀 | [[张嶷]] | 通壮逾古 | 男 | 4 |怃戎、矢志|
 ---
-''怃戎''——出牌阶段限一次，若你有手牌，你可以选择一名有手牌的其他角色，令你与该角色同时展示一张手牌。若你展示【杀】且其未展示【闪】，你弃置此【杀】，然后对其造成1点伤害；若你未展示【杀】且其展示【闪】，你弃置你展示的牌，然后获得其一张牌。
+''怃戎''——出牌阶段限一次，若你有手牌，你可以选择一名有手牌的其他角色，令你与该角色同时展示一张手牌。若你展示【杀】且其未展示【闪】，你弃置此【杀】，若如此做，你对其造成1点伤害；若你未展示【杀】且其展示【闪】，你弃置你展示的牌，若如此做，你获得其一张牌。
 
 ''矢志''——''锁定技''。若你的体力值为1，你的【闪】视为【杀】。</pre>
 </div>
@@ -16757,7 +16781,7 @@ RE编号修订的武将请参考[[RE武将]]。
 ---
 ''忠勇''——当你使用的【杀】被抵消时，你可以将抵消此【杀】的牌交给除目标外的一名角色，若该角色不是你，你可以对目标使用【杀】（无距离限制）。</pre>
 </div>
-<div created="20141010152841708" creator="gltjk" modified="20150701091620552" modifier="gltjk" tags="1v1武将 国战标准版武将 神话再临·风武将 男性武将 吴势力武将" title="周泰">
+<div created="20141010152841708" creator="gltjk" modified="20151027073508699" modifier="gltjk" tags="1v1武将 国战标准版武将 神话再临·风武将 男性武将 吴势力武将" title="周泰">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|
 | WU 013 | 吴 | [[周泰]] | 历战之躯 | 男 | 4 |不屈、奋激|
 | G.WU 013 | 吴 | [[周泰]] | 历战之躯 | 男 | 4 |不屈|
@@ -16766,7 +16790,7 @@ RE编号修订的武将请参考[[RE武将]]。
 !!标准
 ''不屈''——''锁定技''。①当你处于濒死状态时（每次濒死结算限一次），你将牌堆顶的一张牌置于武将牌上〔称为“创”〕，若此“创”与其他的“创”点数均不同，你将体力值回复至1点，否则你将此“创”置入弃牌堆。②若有“创”，你的手牌上限为X（X为“创”的数量）。
 
-''奋激''——当一名角色因获取或另一名角色的弃置而失去手牌后，你可以失去1点体力，令该失去手牌的角色摸两张牌。
+''奋激''——当一名角色因获取或另一名角色的弃置而失去手牌后，你可以弃置一张牌，失去1点体力，然后该失去手牌的角色摸两张牌。
 
 !!国战 &amp; 1v1
 ''不屈''——当你扣减体力后，若你的体力值为0，你可以将牌堆顶的X张牌置于武将牌上〔称为“创”〕（X为1减你的体力减“创”的数量），若没有点数相同的“创”，你不进入濒死状态。
@@ -16874,7 +16898,7 @@ RE编号修订的武将请参考[[RE武将]]。
 
 ''黩武''——出牌阶段，你可以选择你攻击范围内的一名角色并弃置X张牌（X为该角色的体力值），对其造成1点伤害。若该角色因受到此伤害而进入濒死状态，当此濒死结算结束后，你失去1点体力，然后“//黩武//”于此回合内无效。</pre>
 </div>
-<div created="20141014054759191" creator="gltjk" modified="20141027150028466" modifier="gltjk" tags="1v1游戏牌 3v3游戏牌 国战游戏牌 标准游戏牌 装备牌·武器" title="诸葛连弩">
+<div created="20141014054759191" creator="gltjk" modified="20151027030239197" modifier="gltjk" tags="1v1游戏牌 3v3游戏牌 国战游戏牌 标准游戏牌 装备牌·武器" title="诸葛连弩">
 <pre>|!类别|!子类|!名称|!属性|!所属包|!小计|!花色|!总计|!模式|
 |!装备牌|武器| 诸葛连弩 || 标 | 2 |&lt;&lt;club&gt;&gt;(A) &lt;&lt;diamond&gt;&gt;(A)| 2 |!标准|
 |~|~| 诸葛连弩 || 国标 | 1 |&lt;&lt;diamond&gt;&gt;(A)| 1 |!国战|
@@ -16887,7 +16911,7 @@ RE编号修订的武将请参考[[RE武将]]。
 （攻击范围：1）
 
 !!3v3
-&lt;&lt;unlock&gt;&gt;''锁定技''。你使用【杀】的额定次数上限为4。
+&lt;&lt;unlock&gt;&gt;''锁定技''。你使用【杀】的次数上限为4。
 
 （攻击范围：1）
 
@@ -16918,14 +16942,14 @@ RE编号修订的武将请参考[[RE武将]]。
 
 ''空城''——''锁定技''。若你没有手牌，你不是【杀】和【决斗】的合法目标。</pre>
 </div>
-<div created="20141010143706166" creator="gltjk" modified="20150716012933128" modifier="gltjk" tags="1v1武将 国战标准版武将 神话再临·林武将 蜀势力武将 女性武将" title="祝融">
+<div created="20141010143706166" creator="gltjk" modified="20151027055551426" modifier="gltjk" tags="1v1武将 国战标准版武将 神话再临·林武将 蜀势力武将 女性武将" title="祝融">
 <pre>|!编号|!势力|!名称|!称号|!性别|!体力|!技能|
 | SHU 015 | 蜀 | [[祝融]] | 野性的女王 | 女 | 4 |巨象、烈刃|
 | G.SHU 015 | 蜀 | [[祝融]] | 野性的女王 | 女 | 2 |巨象、烈刃|
 | D.SHU 015 | 蜀 | [[祝融]] | 野性的女王 | 女 | 4 |烈刃、蛮裔|
 ---
 !!标准 &amp; 国战
-''巨象''——''锁定技''。①【南蛮入侵】对你无效。②当其他角色使用的【南蛮入侵】因结算完毕而置入弃牌堆后，你获取之。
+''巨象''——''锁定技''。①【南蛮入侵】对你无效。②当其他角色使用的【南蛮入侵】结算结束后，你获取之。
 
 ''烈刃''——当你使用【杀】对目标造成伤害后，你可以与其拼点：当你赢后，你获取其一张牌。
 
@@ -16962,11 +16986,11 @@ RE编号修订的武将请参考[[RE武将]]。
 <div created="20141027144852639" creator="gltjk" modified="20141111101823273" modifier="gltjk" tags="装备牌" title="装备牌·坐骑">
 <pre>&lt;&lt;tabs &quot;[tag[装备牌·坐骑]]&quot; &quot;-1坐骑&quot;&gt;&gt;</pre>
 </div>
-<div created="20150630143948368" creator="gltjk" modified="20150927120310919" modifier="gltjk" tags="专题" title="状态技专题">
+<div created="20150630143948368" creator="gltjk" modified="20151027142605363" modifier="gltjk" tags="专题" title="状态技专题">
 <pre>!!增减限制
 |!类型|&gt;|!状态|
 |!解除限制|!距离限制|__''陷阵''__([[高顺]]) __''战意''__([[朱灵]])&lt;br&gt;&lt;&lt;rd 杀：&gt;&gt;__''神速①''__([[夏侯渊]]·标国竞) __''神速②''__([[夏侯渊]]·标国竞) __''诛害''__([[徐庶]]·标) __''诈降''__([[黄盖]]·标) __''天义''__([[太史慈]]·标国) __''双刃''__([[纪灵]]·国) ''武神②''([[神关羽]]) __''将驰''__([[曹彰]]) __''求援''__([[伏皇后]]) __''勇略''__([[韩浩&amp;史涣]]) __''忠勇''__([[周仓]]) __''密诏''__([[刘协]]) __''枪舞''__([[星彩]]) __''镇卫''__([[SP文聘]]) __''轻逸''__([[孙茹]]) __''雪恨''__([[☆SP夏侯惇]]) __''急速''__([[叶诗文]])&lt;br&gt;&lt;&lt;rd 锦囊牌：&gt;&gt;''断粮②''([[徐晃]]·标国竞) ''奇才①''([[黄月英]]·标&lt;&lt;slash&gt;&gt;//[[界SP黄月英]]//) ''奇才''([[黄月英]]·国竞) __''慎断''__([[韩浩&amp;史涣]]) __''镇卫''__([[SP文聘]])|
-|~|!次数限制|&lt;&lt;rd 杀：&gt;&gt;''咆哮''([[张飞]]·标国竞单/__[[关兴&amp;张苞]]__&lt;&lt;slash&gt;&gt;//[[夏侯霸]]//) ''咆哮①''([[五虎将大旗]]) __''陷阵''__([[高顺]]) __''枪舞''__([[星彩]]) ''诸葛连弩''([[诸葛连弩]]·标国单)|
+|~|!次数限制|&lt;&lt;rd 杀：&gt;&gt;''咆哮''([[张飞]]·标国竞单/__[[关兴&amp;张苞]]__&lt;&lt;slash&gt;&gt;//[[夏侯霸]]//) ''咆哮①''([[五虎将大旗]]) __''陷阵''__([[高顺]]) ''诸葛连弩''([[诸葛连弩]]·标国单)|
 |~|!他我限制|__''雪恨''__([[☆SP夏侯惇]])|
 |~|!消耗限制|__''讨袭''__([[曹休]]) ''木牛流马②''([[木牛流马]]·标国)|
 |~|!原装备限制|__''穆穆''__([[孙鲁育]]) __''军威''__([[☆SP甘宁]])|
@@ -17001,7 +17025,7 @@ RE编号修订的武将请参考[[RE武将]]。
 !!技能更改
 |!更改类型|!状态|
 |!描述更改|''遗志②''([[姜维]]·国) ''五虎将大旗''([[君刘备]]) __''穆穆''__([[RE孙鲁育]])|
-|!技能无效|__''义绝''__([[关羽]]·标) __''铁骑''__([[马超]]·标) ''缠怨②''([[于吉]]·__标__) __''无前''__([[神吕布]]) __''咆哮②''__([[五虎将大旗]]) __''陷阵''__([[高顺]]) ''奔袭②''([[吴懿]]) __''战绝''__([[刘谌]]) __''孝德''__([[SP夏侯氏]]) __''黩武''__([[诸葛恪]]) __''陈情''__([[RE蔡文姬]]) __''醉乡''__([[☆SP庞统]]) __''青釭剑''__([[青釭剑]]·标国竞单)|
+|!技能无效|__''仁德''__([[刘备]]·标) __''义绝''__([[关羽]]·标) __''铁骑''__([[马超]]·标) ''缠怨②''([[于吉]]·__标__) __''无前''__([[神吕布]]) __''咆哮②''__([[五虎将大旗]]) __''陷阵''__([[高顺]]) ''奔袭②''([[吴懿]]) __''战绝''__([[刘谌]]) __''孝德''__([[SP夏侯氏]]) __''黩武''__([[诸葛恪]]) __''陈情''__([[RE蔡文姬]]) __''醉乡''__([[☆SP庞统]]) __''青釭剑''__([[青釭剑]]·标国竞单)|
 
 !!信息更改
 |&gt;|!信息类型|!基础更改|!函数更改|!替换更改|
@@ -17012,8 +17036,8 @@ RE编号修订的武将请参考[[RE武将]]。
 |~|!阴阳鱼数量||''急袭①''([[邓艾]]·国) ''遗志①''([[姜维]]·国) ''魂殇①''([[孙策]]·国)||
 |~|!点数||__''鹰扬''__([[孙策]]·国)||
 |~|!伤害值基数||''怒斩②''(__[[界SP关羽]]__) __''凤魄''__([[马云騄]])||
-|~|!使用牌次数上限|&lt;&lt;rd 杀(额定)：&gt;&gt;''连弩''([[连弩|诸葛连弩]]·竞)|&lt;&lt;rd 杀(额外)：&gt;&gt;__''诈降''__([[黄盖]]·标) __''天义''__([[太史慈]]·标国) __''将驰''__([[曹彰]]) __''虎啸''__([[关银屏]])||
-|~|!使用牌目标数上限||&lt;&lt;rd 杀(额外)：&gt;&gt;__''天义''__([[太史慈]]·标国) ''短兵''([[丁奉]]·国/[[SP丁奉]]) ''神戟''([[吕布]]·__国__/[[虎牢关神吕布]]) ''疠火②''([[程普]]) __''巧说''__([[简雍]]) ''奔袭②''([[吴懿]]) ''方天画戟''([[方天画戟]]·标竞)&lt;br&gt;&lt;&lt;rd 桃(额外)：&gt;&gt;__''巧说''__([[简雍]])&lt;br&gt;&lt;&lt;rd 酒(额外)：&gt;&gt;__''巧说''__([[简雍]])&lt;br&gt;&lt;&lt;rd 锦囊牌(额定)：&gt;&gt;__''巧说''__([[简雍]])&lt;br&gt;&lt;&lt;rd 锦囊牌(额外)：&gt;&gt;__''巧说''__([[简雍]])||
+|~|!使用牌次数上限|&lt;&lt;rd 杀：&gt;&gt;''连弩''([[连弩|诸葛连弩]]·竞)|&lt;&lt;rd 杀：&gt;&gt;__''司敌''__([[曹真]])||
+|~|!使用牌目标数上限|&lt;&lt;rd 杀(额定)：&gt;&gt;__''方天画戟''__([[方天画戟]]·国)|&lt;&lt;rd 杀(额外)：&gt;&gt;__''天义''__([[太史慈]]·标国) ''短兵''([[丁奉]]·国/[[SP丁奉]]) ''神戟''([[吕布]]·__国__/[[虎牢关神吕布]]) ''疠火②''([[程普]]) __''巧说''__([[简雍]]) ''奔袭②''([[吴懿]]) ''方天画戟''([[方天画戟]]·标竞)&lt;br&gt;&lt;&lt;rd 桃(额外)：&gt;&gt;__''巧说''__([[简雍]])&lt;br&gt;&lt;&lt;rd 酒(额外)：&gt;&gt;__''巧说''__([[简雍]])&lt;br&gt;&lt;&lt;rd 锦囊牌(额定)：&gt;&gt;__''巧说''__([[简雍]])&lt;br&gt;&lt;&lt;rd 锦囊牌(额外)：&gt;&gt;__''巧说''__([[简雍]])||
 |!枚举|!花色|||''红颜''([[小乔]]·标国竞单/[[国SP小乔]])|
 |~|!牌名|||''武神①''([[神关羽]]) ''禁酒''([[高顺]]) ''矢志''([[张嶷]]) __''魅步''__([[孙鲁育]]) ''止息''(__[[RE孙鲁育]]__) __''孝廉''__([[台YJ曹昂]])|
 |~|!性别|||''化身③''([[左慈]]·标)|
@@ -17220,11 +17244,11 @@ exports.run = function(source,random,delay) {
 
 })();</pre>
 </div>
-<div created="20150901081251434" creator="gltjk" modified="20150901083755357" modifier="gltjk" tags="RE武将 女性武将 吴势力武将" title="RE步练师">
+<div created="20150901081251434" creator="gltjk" modified="20151027014807304" modifier="gltjk" tags="RE武将 女性武将 吴势力武将" title="RE步练师">
 <pre>◇本条目不是[[步练师]]。
 
 |!编号|!势力|!名称|!称号|!性别|!体力|!技能|
-| RE 00? | 吴 | [[步练师|RE步练师]] | ？？？ | 女 | 3 |安恤、追忆|
+| RE 005 | 吴 | [[步练师|RE步练师]] | 无冕之后 | 女 | 3 |安恤、追忆|
 ---
 ''安恤''——出牌阶段限一次，你可以选择一名有手牌的其他角色并选择一名手牌更少的其他角色，令前者将一张手牌交给后者，然后若两名角色手牌数相等，你选择一项：1.摸一张牌；2.回复1点体力。
 
@@ -17270,26 +17294,26 @@ exports.run = function(source,random,delay) {
 
 ''制蛮''——当你对其他角色造成伤害时，你可以防止此伤害，获取该角色装备区或判定区里的一张牌。</pre>
 </div>
-<div created="20150621075618219" creator="gltjk" modified="20150703041350474" modifier="gltjk" tags="女性武将 吴势力武将 RE武将" title="RE孙鲁育">
+<div created="20150621075618219" creator="gltjk" modified="20151027142821536" modifier="gltjk" tags="女性武将 吴势力武将 RE武将" title="RE孙鲁育">
 <pre>◇本条目不是[[孙鲁育]]。
 
 |!编号|!势力|!名称|!称号|!性别|!体力|!技能|
 | RE 00? | 吴 | [[孙鲁育|RE孙鲁育]] | ？？？ | 女 | 3 |魅步〈止息〉、穆穆|
 ---
-''魅步''——攻击范围内不含有你的其他角色的出牌阶段开始时，你可以令该角色获得于此回合内的“//止息//”〈''锁定技''。若你于当前回合内使用过锦囊牌，你的锦囊牌视为【杀】〉@@background-color:yellow;，若如此做，你于此回合内视为在其攻击范围内@@。
+''魅步''——攻击范围内不含有你的其他角色的出牌阶段开始时，你可以令该角色获得于此回合内的“//止息//”〈''锁定技''。若你于出牌阶段内使用过锦囊牌，你的锦囊牌于此回合内视为【杀】〉，若如此做且若你没有“睦”标记，你于此回合内视为在其攻击范围内。
 
-''穆穆''——出牌阶限一次，你可以弃置一张牌，选择一项：1.弃置场上的一张装备牌，若如此做，你摸一张牌；2.获取场上的一张防具牌。若你以此法弃置了【杀】或黑色锦囊牌，你于下回合开始之前拥有“睦”标记〈“//魅步//”的黄底部分视为不存在〉。</pre>
+''穆穆''——出牌阶限一次，你可以弃置一张牌，选择一项：1.弃置场上的一张装备牌，若如此做，你摸一张牌；2.获取场上的一张防具牌。若你以此法弃置了【杀】或黑色锦囊牌，你于下回合开始之前拥有“睦”标记。</pre>
 </div>
-<div created="20150621031322526" creator="gltjk" list="RE马谡 RE于禁 RE刘表 RE马岱 RE徐盛 RE蔡文姬 RE孙鲁育 RE步练师 RE袁术" modified="20150927115832382" modifier="gltjk" tags="标准模式武将" title="RE武将">
+<div created="20150621031322526" creator="gltjk" list="RE马谡 RE于禁 RE刘表 RE马岱 RE步练师 RE徐盛 RE蔡文姬 RE孙鲁育 RE袁术" modified="20151027014826209" modifier="gltjk" tags="标准模式武将" title="RE武将">
 <pre>&lt;&lt;tabs &quot;[tag[RE武将]]&quot; &quot;RE马谡&quot;&gt;&gt;</pre>
 </div>
-<div created="20150621031532388" creator="gltjk" modified="20150621075057203" modifier="gltjk" tags="男性武将 吴势力武将 RE武将" title="RE徐盛">
+<div created="20150621031532388" creator="gltjk" modified="20151027021227718" modifier="gltjk" tags="男性武将 吴势力武将 RE武将" title="RE徐盛">
 <pre>◇本条目不是[[徐盛]]或[[YJ徐盛]]。
 
 |!编号|!势力|!名称|!称号|!性别|!体力|!技能|
 | RE 00? | 吴 | [[徐盛|RE徐盛]] | ？？？ | 男 | 4 |破军|
 ---
-''破军''——当你于出牌阶段内使用【杀】指定一个目标后，你可以将其一至X张牌置于其武将牌旁〔称为“疑”〕（X为其的体力值），若如此做，结束阶段开始时，其获得武将牌旁的“疑”。</pre>
+''破军''——当你于出牌阶段内使用【杀】指定一个目标后，你可以将其一至X张牌置于其武将牌旁〔称为“疑”〕（X为其体力值），若如此做，回合结束后，其获得武将牌旁的所有“疑”。</pre>
 </div>
 <div created="20150214051643123" creator="gltjk" modified="20150621075221739" modifier="gltjk" tags="魏势力武将 男性武将 RE武将" title="RE于禁">
 <pre>◇本条目不是[[于禁]]。
@@ -17464,13 +17488,13 @@ exports.run = function(source,random,delay) {
 
 ''枭姬''——当你失去装备区里的一张牌后，你可以摸两张牌。</pre>
 </div>
-<div created="20141023080111066" creator="gltjk" modified="20150214045908913" modifier="gltjk" tags="魏势力武将 SP武将 男性武将" title="SP文聘">
+<div created="20141023080111066" creator="gltjk" modified="20151027021250291" modifier="gltjk" tags="魏势力武将 SP武将 男性武将" title="SP文聘">
 <pre>◇本条目不是[[文聘]]。
 
 |!编号|!势力|!名称|!称号|!性别|!体力|!技能|
 | SP 039 | 魏 | [[文聘|SP文聘]] | 坚城宿将 | 男 | 4 |镇卫|
 ---
-''镇卫''——当体力值小于你的角色成为【杀】或黑色锦囊牌的唯一目标时，你可以弃置一张牌，选择一项：1.将此牌转移给你（无距离限制），若如此做，你摸一张牌；2.令此牌无效，然后将之置于使用者的武将牌旁〔称为“钲”〕，若如此做，当前回合结束时，使用者获取此“钲”。</pre>
+''镇卫''——当体力值小于你的角色成为【杀】或黑色锦囊牌的唯一目标时，你可以弃置一张牌，选择一项：1.将此牌转移给你（无距离限制），若如此做，你摸一张牌；2.令此牌无效，然后将之置于使用者的武将牌旁〔称为“钲”〕，若如此做，当前回合结束后，使用者获取此“钲”。</pre>
 </div>
 <div color="#e68646" created="20141011162458525" creator="gltjk" list="杨修 SP貂蝉 SP公孙瓒 SP袁术 SP孙尚香 SP庞德 SP关羽 虎牢关神吕布 SP蔡文姬 SP马超 SP贾诩 SP曹洪 关银屏 SP甄姬 刘协 灵雎 伏完 夏侯霸 陈琳 大乔&amp;小乔 SP神吕布 SP夏侯氏 SP乐进 张宝 曹昂 SP诸葛瑾 星彩 SP潘凤 祖茂 SP丁奉 诸葛诞 SP何太后 孙鲁育 马良 SP甘夫人 黄巾雷使 SP文聘 司马朗" modified="20150702220434308" modifier="gltjk" tags="标准模式武将" title="SP武将">
 <pre>&lt;&lt;tabs &quot;[tag[SP武将]]&quot; &quot;杨修&quot;&gt;&gt;</pre>
